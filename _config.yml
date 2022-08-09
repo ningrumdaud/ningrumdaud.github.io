@@ -1,11 +1,11 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
+title: "Ningrum's Page"
+email: panggih_kusuma.ningrum@univ-fcomte.fr
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: ""
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/ninglogo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: PK Ningrum
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -25,27 +25,27 @@ ganalytics: UA-113961478-1
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/john.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+    name: Ningrum
+    display_name: Ningrum
+    avatar: 'assets/images/ning.jpeg'
+    email: panggih_kusuma.ningrum@univ-fcomte.fr
+    web: https://ningrumdaud.github.io
+    twitter: https://twitter.com/ningrum_daud
+    description: "Hi! I'm Ning"
+  #john:
+    #name: John
+    #display_name: John
+    #avatar: 'assets/images/john.png'
+    #email: wowthemesnet@gmail.com
+    #web: https://www.wowthemes.net/category/jekyll-themes/
+    #twitter: https://twitter.com/wowthemesnet
+    #description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  linkedin: https://www.linkedin.com/in/panggih-kusuma-ningrum
+  github: https://github.com/ningrumdaud
+  twitter: https://twitter.com/ningrum_daud
 
 # Plugins
 plugins: 
