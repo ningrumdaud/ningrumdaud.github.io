@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A "Divergent""
+title:  A "Divergent"
 author: sal
 categories: [ aboutme ]
 image: assets/images/aboutme.png
