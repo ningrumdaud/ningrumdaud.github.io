@@ -141,7 +141,7 @@ small, .small {
 
 @media only screen and (max-width: 1024px) {
     .page-header.big {
-        font-size:3.5em;
+        font-size:2em;
     }
     .wrap-page-header {
         padding: 2rem 0 3rem;
@@ -155,7 +155,7 @@ small, .small {
 }
 @media only screen and (max-width: 767px) {
     .page-header.big {
-        font-size:2.5em;
+        font-size:1.5em;
     }
 }
 .google-auto-placed {
@@ -171,7 +171,7 @@ small, .small {
 .section-title h2 {
 	font-weight:700;
 	font-size:1.1rem;
-	margin-bottom:27px;
+	margin-bottom:20px;
     position: relative;
 }
 .section-title h2:before {
