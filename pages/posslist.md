@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impossible List
-permalink: /poslist/
+permalink: /posslist/
 ---
 
 This list will track all my goals, and I’ll be updating them on the go!
