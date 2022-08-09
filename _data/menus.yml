@@ -10,7 +10,7 @@ topmenu:
 - title: Portfolio
   url: "contact/"
   
-- title: About
+- title: CV
   url: "https://ningrumdaud.github.io/online-resume"
   external: true
 
