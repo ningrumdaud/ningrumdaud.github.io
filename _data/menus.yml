@@ -5,17 +5,17 @@ topmenu:
   url: ""
 
 - title: Publications
-  url: "contact/"
+  url: "publications/"
   
 - title: Portfolio
-  url: "contact/"
+  url: "portfolio/"
   
 - title: CV
   url: "https://ningrumdaud.github.io/online-resume"
   external: true
 
 - title: Impossible List
-  url: "contact/"
+  url: "posslist/"
 
 - title: Contact
   url: "contact/"
