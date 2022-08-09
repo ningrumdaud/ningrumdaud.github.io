@@ -3,7 +3,7 @@ email: panggih_kusuma.ningrum@univ-fcomte.fr
 timezone: UTC
 baseurl: ""
 permalink: "/:title/"
-logo: 'assets/images/ninglogo.png'
+logo: 'assets/images/ninglogosmall.png'
 favicon: 'assets/images/favicon.ico'
 author: PK Ningrum
 paginate: 30
