@@ -53,11 +53,9 @@ permalink: /publications/
   <img src="/assets/images/ad.png" name="image-name" width="350" height="350">
   </details>
   
-- <details><summary>Detail 2</summary>
-  <img src="image-url" name="image-name">
-  <img src="image-url" name="image-name">
-  <img src="image-url" name="image-name">  
-</details>
+- <details><summary>Invited Speaker at Webinar "Jobs & Research Opportunities in Data Science (2021)"</summary>
+  <img src="/assets/images/ad2.png" name="image-name" width="350" height="350">
+  </details>
 
 
   
