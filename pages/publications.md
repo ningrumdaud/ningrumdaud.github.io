@@ -57,8 +57,7 @@ permalink: /publications/
   <img src="/assets/images/ad2.png" name="image-name" width="350" height="350">
   </details>
  
- - <details><summary>Moderator at Dean Talks II December 2020, HeyLaw Edu (2022)</summary>
-  <img src="/assets/images/ad3.jpeg" name="image-name" width="350" height="350">
+ - <details><summary>Moderator at Dean Talks II December 2020, HeyLaw Edu (2022)</summary> <img src="/assets/images/ad3.jpeg" name="image-name" width="350" height="350">
   </details>
   
 - <details><summary>Moderator at Dean Talks Dean Talks I December 2020, HeyLaw Edu (2022)</summary>
