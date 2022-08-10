@@ -58,15 +58,15 @@ permalink: /publications/
   </details>
  
  - <details><summary>Moderator at Dean Talks II December 2020, HeyLaw Edu (2022)</summary>
-  <img src="/assets/images/ad3.png" name="image-name" width="350" height="350">
+  <img src="/assets/images/ad3.jpeg" name="image-name" width="350" height="350">
   </details>
   
 - <details><summary>Moderator at Dean Talks Dean Talks I December 2020, HeyLaw Edu (2022)</summary>
-  <img src="/assets/images/ad4.png" name="image-name" width="350" height="350">
+  <img src="/assets/images/ad4.jpeg" name="image-name" width="350" height="350">
   </details>
 
 - <details><summary>Invited Speaker at Reminar #2, REM FM & UNNES (2020)</summary>
-  <img src="/assets/images/ad5.png" name="image-name" width="350" height="350">
+  <img src="/assets/images/ad5.jpeg" name="image-name" width="350" height="350">
   </details>
   
 
