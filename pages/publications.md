@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-## PROJECTS & PUBLICATIONS
-
 - [Text mining of online job advertisements to identify direct discrimination during job hunting process: A case study in Indonesia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233746) <br>
   Published in PloS One (2020) <br>
   Authors: Panggih Kusuma NINGRUM, Tatdow PANSOMBUT, Attachai UERANANTASUN
@@ -23,23 +21,43 @@ permalink: /publications/
   Presented at Internetes platformok kora – társadalmi hatások és szabályozási kihívások conference (2021) <br>
   Institution: Information Society Research Institute of the National Public Service University, Hungary <br>
   Authors: Gábor MÉLYPTAKI, Zsófia RİCZU, Dávid MÁTÉ, Panggih Kusuma NİNGRUM 
+  
+- [Identifying Gender Stereotypes in Indonesia for Accounting Job Positions in Online Job Ads](http://st.sat.psu.ac.th/seminar/ResearchMethod2018/program.html) <br>
+  Presented at International workshop - Research Method in Practice (2018) <br>
+  Institution: Faculty of Science & Technology, Prince of Songkla University, Thailand <br>
+  Authors: Panggih Kusuma NINGRUM, Attachai UERANANTASUN, Tatdow PANSOMBUT
  
  *The list will be updated soon :)*
  
 ***
 
+## PROJECTS
+
+- [Modelling Uncertainty in Science (InSciM)](https://project-inscim.github.io/), France (2022 - present)
+  Funded by French ANR JCJC [(ANR-21-CE38-0003-01)](https://anr.fr/Projet-ANR-21-CE38-0003)
+  
+- Research Collaboration project with Faculty of Law - University of Miskolc - Miskolci Egyetem, Hungary (2020 - 2021) <br>
+  Topic: Artificial Intelligence & Labour Law
+  
+- Research project with Research Methodology Department, Faculty of Science & Technology, Prince of Songkla University, Thailand (2018) <br>
+  Title: Student's Satisfaction Toward OFO Bicycle Service in PSU Pattani, Thailand.
+  
+- Research project with Research Methodology Department, Faculty of Science & Technology, Prince of Songkla University, Thailand (2018) <br>
+  Title: The Analysis of Factors Affecting Preferences of Online Shopping Users in PSU Pattani, Thailand. 
+
+***
+
 ## TALKS & EVENTS
 
-- <details><summary>Detail 1</summary>
-  <img src=images/02.jpg name="sample">
+- <details><summary>Invited Speaker at Expertise Class, BritzoneId (2022)</summary>
+  <img src=assets/images/ad.png name="sample">
   
 - <details><summary>Detail 2</summary>
   <img src="image-url" name="image-name">
   <img src="image-url" name="image-name">
-  <img src="image-url" name="image-name">
-  
+  <img src="image-url" name="image-name">  
 </details>
-</details>
+
 
   
 ***
