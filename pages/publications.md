@@ -50,7 +50,7 @@ permalink: /publications/
 ## TALKS & EVENTS
 
 - <details><summary>Invited Speaker at Expertise Class, BritzoneId (2022)</summary>
-  <img src="assets/images/ad.png" name="image-name">
+  <img src="/assets/images/ad.png" name="image-name">
   </details>
   
 - <details><summary>Detail 2</summary>
