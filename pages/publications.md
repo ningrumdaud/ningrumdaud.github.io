@@ -33,10 +33,10 @@ permalink: /publications/
 
 ## PROJECTS
 
-- [Modelling Uncertainty in Science (InSciM)](https://project-inscim.github.io/), France (2022 - present)
+- [Modelling Uncertainty in Science (InSciM)](https://project-inscim.github.io/), France (2022 - present) <br>
   Funded by French ANR JCJC [(ANR-21-CE38-0003-01)](https://anr.fr/Projet-ANR-21-CE38-0003)
   
-- Research Collaboration project with Faculty of Law - University of Miskolc - Miskolci Egyetem, Hungary (2020 - 2021) <br>
+- Research collaboration project with Faculty of Law - University of Miskolc - Miskolci Egyetem, Hungary (2020 - 2021) <br>
   Topic: Artificial Intelligence & Labour Law
   
 - Research project with Research Methodology Department, Faculty of Science & Technology, Prince of Songkla University, Thailand (2018) <br>
