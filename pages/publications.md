@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PUBLICATIONS
+title: Publications
 permalink: /publications/
 ---
 
@@ -31,7 +31,7 @@ permalink: /publications/
  
 ***
 
-## PROJECTS
+## Projects
 
 - [Modelling Uncertainty in Science (InSciM)](https://project-inscim.github.io/), France (2022 - present) <br>
   Funded by French ANR JCJC [(ANR-21-CE38-0003-01)](https://anr.fr/Projet-ANR-21-CE38-0003)
@@ -47,7 +47,7 @@ permalink: /publications/
 
 ***
 
-## TALKS & EVENTS
+## Talks & Events
 
 - <details><summary>Invited Speaker at Expertise Class, BritzoneId (2022)</summary>
   <img src="/assets/images/ad.png" name="image-name" width="350" height="350">
@@ -56,8 +56,18 @@ permalink: /publications/
 - <details><summary>Invited Speaker at Webinar "Jobs & Research Opportunities in Data Science", Universitas Negeri Semarang (2021)</summary>
   <img src="/assets/images/ad2.png" name="image-name" width="350" height="350">
   </details>
+ 
+ - <details><summary>Moderator at Dean Talks II December 2020, HeyLaw Edu (2022)</summary>
+  <img src="/assets/images/ad3.png" name="image-name" width="350" height="350">
+  </details>
+  
+- <details><summary>Moderator at Dean Talks Dean Talks I December 2020, HeyLaw Edu (2022)</summary>
+  <img src="/assets/images/ad4.png" name="image-name" width="350" height="350">
+  </details>
 
-
+- <details><summary>Invited Speaker at Reminar #2, REM FM & UNNES (2020)</summary>
+  <img src="/assets/images/ad5.png" name="image-name" width="350" height="350">
+  </details>
   
 
 
