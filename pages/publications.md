@@ -53,15 +53,17 @@ permalink: /publications/
   <img src="/assets/images/ad.png" name="image-name" width="350" height="350">
   </details>
   
-- <details><summary>Invited Speaker at Webinar "Jobs & Research Opportunities in Data Science (2021)"</summary>
+- <details><summary>Invited Speaker at Webinar "Jobs & Research Opportunities in Data Science", Universitas Negeri Semarang (2021)</summary>
   <img src="/assets/images/ad2.png" name="image-name" width="350" height="350">
   </details>
 
 
   
-***
 
-<!-- ## NEWS/MEDIA
+
+<!-- ***
+
+## NEWS/MEDIA
 
 - Media Review (Indonesia): [Webinar Jobs and Research Opportunities In Data Science](http://sekitarunnes.blogspot.com/2021/07/pentingnya-data-scientist-di-era.html), July 2021
 - Newspaper (Indonesia): [Magang Untuk Mahasiswa Penting Nggak Sih?](https://issuu.com/joglosemar/docs/e-paper_13_mei_2016/10), May 2016 -->
