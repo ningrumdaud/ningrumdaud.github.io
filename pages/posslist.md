@@ -31,7 +31,7 @@ The rest of my current priorities are declared at this page: What I’m Doing No
 ## Skill Goals
 - Become a Python native in 2022
 - Coding practice min. 1 hour/day
-- Become fluent in French
+- Become fluent in French: Reach A2 level in 2023
 - Learn min. 3 new longboard tricks/year
 - Learn to snowboard
 - Read 100 Books
@@ -49,10 +49,13 @@ The rest of my current priorities are declared at this page: What I’m Doing No
   * [x] 2021: I have been living in France since December 2021
 - Visit & explore Greece
 - Visit & explore Italy
-- Visit & explore Hungary
-- Visit & explore Switzerland
+- ~~Visit & explore Hungary~~
+  * [x] Summer 2022: I visited the city of light - Budapest!
+- ~~Visit & explore Switzerland~~
+  * [x] Summer 2022: I visited Zürich
 - Visit & Explore Netherland
-- Visit & explore Germany
+- ~~Visit & explore Germany~~
+  * [x] Summer 2022: I visited Nuremberg
 - ~~Visit~~ & Explore Singapore
 - Visit & Explore Japan
 - Snorkling in Karimun Jawa for the second time
