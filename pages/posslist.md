@@ -38,13 +38,13 @@ The rest of my current priorities are declared at this page: What I’m Doing No
 - Sign up for a drawing course
 
 ## Events to Attend
-- Participate International Conferences about AI/NLP
-- Participate at Datathon/Hackathon
+- Participate at International Conferences about AI/NLP
+- Participate at a Datathon/Hackathon
 - Sing a long at Switchfoot concert! Please Switchfoot... Come to French or EU ❤
 
 ## Travel Goals
 - ~~Visit & explore Thailand~~
-  * [x] 2019: I lived in Thailand for two year while pursuing my master's degree
+  * [x] 2019: I lived in Thailand for two years while pursuing my master's degree
 - ~~Visit & explore France~~
   * [x] 2021: I have been living in France since December 2021
 - Visit & explore Greece
