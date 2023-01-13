@@ -12,6 +12,6 @@ I believe that data science is the ideal field for a divergent individual like m
 
 Currently, I am a PhD Fellow in Natural Language Processing (NLP) at the Lucien Tesnière Research Center - Linguistics and Automatic Language Processing (CRIT) at the University of Bourgogne Franche-Comté in France. Here, I am able to continue my passion for text data analysis and delve deeper into the ways it can be applied to various fields.
 
-Outside of my academic pursuits, I am a creative individual who enjoys expressing myself through different forms of art. I create music, write songs, and play the guitar in my spare time. You can check out some of my songs on my YouTube channel: [here](https://www.youtube.com/@vyasamozarta). Additionally, I enjoy drawing, cooking, and riding my longboard. All of these activities allow me to unwind and explore different parts of myself, and I believe they help me to be a better and more well-rounded person.
+Outside of my academic pursuits, I enjoy expressing myself through different forms of art. In my spare time, I compose music, write songs, play the guitar, draw, cook, and ride my longboard. You can check out some of my songs on my band's YouTube channel: [here](https://www.youtube.com/@vyasamozarta). All of these activities allow me to unwind and explore different parts of myself, and I believe they help me to be a better and more well-rounded person.
 
-Overall, my background in law, passion for research and data science, and love for text data analysis have led me to where I am today and I am excited to see where it will take me in the future.
+Overall, my academic and personal pursuits have led me to a fulfilling and exciting career in NLP, and I am excited to see where my journey takes me next.
