@@ -8,7 +8,7 @@ This list will track all my goals, and I’ll be updating them on the go!
 
 ## Current Focuses:
 Right now my main focus is on my Ph.D. research projects, since a new semester is coming up.
-The rest of my current priorities are declared at this page: What I’m Doing Now.
+The rest of my current priorities are declared at this page: [**Current Activities**](https://ningrumdaud.github.io/current-works/).
 
 ## Life Goals
 - Become Dr. Ningrum in 2024 (Aamiin!) :)
