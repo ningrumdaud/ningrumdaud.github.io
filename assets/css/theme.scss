@@ -32,10 +32,15 @@ body {
 }
 @media (max-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
-        width:90%;
-        max-width:90%;
-        padding:0 25px;
+        width: 90%;
+        max-width: 90%;
+        padding: 0 25px;
     }
+
+    #mobile-text {
+        padding-right: 15px;
+    }
+
 }
 main {min-height:500px;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .navbar-light .navbar-brand, .text-dark, .dropdown-item {
