@@ -147,18 +147,22 @@ small, .small {
 
 @media only screen and (max-width: 1024px) {
     .page-header.big {
-        font-size:1.5em;
+        font-size: 1.5em;
     }
     .wrap-page-header {
         padding: 2rem 0 3rem;
     }
     .wrap-page-header {
-        display:none;
+        display: none;
     }
     .layout-default .wrap-page-header {
-        display:block;
+        display: block;
+    }
+    .hero {
+        padding: 1rem 2rem; /* Adjust the padding size as desired */
     }
 }
+
 @media only screen and (max-width: 767px) {
     .page-header.big {
         font-size:1.5em;
