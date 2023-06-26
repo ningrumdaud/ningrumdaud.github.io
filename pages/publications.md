@@ -49,6 +49,14 @@ permalink: /publications/
 
 ## Talks & Events
 
+<details><summary>Invited Speaker at Webinar "Coding Kids From Sawahlunto to France", Coding Kids (2023)</summary>
+  <img src="/assets/images/ad2-23.png" name="image-name" width="350" height="350">
+  </details>
+
+<details><summary>Invited Speaker at Webinar "Exlusive International Webinars - Become a productive generation in the society 5.0 Era", Universitas Negeri Semarang (2023)</summary>
+  <img src="/assets/images/ad1-23.png" name="image-name" width="350" height="350">
+  </details>
+
 <details><summary>Invited Speaker at Expertise Class, BritzoneId (2022)</summary>
   <img src="/assets/images/ad.png" name="image-name" width="350" height="350">
   </details>
