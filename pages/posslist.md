@@ -22,7 +22,8 @@ The rest of my current priorities are declared at this page: [**Current Activiti
 
 ## Professional Goals
 - Build an amazing portfolio
-- Mobility program in abroad in 2023
+- ~~Mobility program in abroad in 2023~~
+  * [x] Feb 2023: Research visiting program at GESIS - Leibniz Institute for the Social Science (Germany)
 - Publish min. 1 paper/year
   * [x] May 2022: Published a book chapter in Springer Nature
   * [x] Junly 2023: 2 articles got accepted in reputable international conferences
