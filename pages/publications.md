@@ -7,6 +7,16 @@ permalink: /publications/
 - [Text mining of online job advertisements to identify direct discrimination during job hunting process: A case study in Indonesia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233746) <br>
   Published in PloS One (2020) <br>
   Authors: Panggih Kusuma NINGRUM, Tatdow PANSOMBUT, Attachai UERANANTASUN
+
+- [UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text](https://doi.org/10.48550/arXiv.2307.14236) <br>
+  In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) <br>
+  and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, <br>
+  Santa Fe, New Mexico, USA, June 26 - 30, 2023. <br>
+  Authors: Panggih Kusuma NINGRUM, Philipp MAYR, Iana ATANASSOVA
+
+- [Scientific Uncertainty: an Annotation Framework and Corpus Study in Different Disciplines](https://www.conftool.pro/issi2023/index.php/Ningrum-Scientific_Uncertainty-277.docx?page=downloadPaper&filename=Ningrum-Scientific_Uncertainty-277.docx&form_id=277&form_version=final) <br>
+  In: 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI 2023), Bloomington, Indiana, US. <br>
+  Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA
   
 - [The Role of the Artificial Intelligence in the Labour Law Relations in European and Asian Aspect](https://dergipark.org.tr/en/pub/insanveinsan/issue/65253/976915) <br>
   Published in İnsan ve İnsan (2021) <br>
