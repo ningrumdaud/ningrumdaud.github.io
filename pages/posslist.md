@@ -55,12 +55,18 @@ The rest of my current priorities are declared at this page: [**Current Activiti
 - Visit & explore Greece
 - Visit & explore Italy
 - ~~Visit & explore Hungary~~
-  * [x] Summer 2022: I visited the city of light - Budapest!
+  * [x] Summer 2022: The city of light - Budapest!
 - ~~Visit & explore Switzerland~~
-  * [x] Summer 2022: I visited Zürich
-- Visit & Explore Netherland
+  * [x] Summer 2022: Zürich
+- ~~Visit & explore Netherland~~
+  * [x] Spring 2023: Maastricht
 - ~~Visit & explore Germany~~
-  * [x] Summer 2022: I visited Nuremberg
+  * [x] Summer 2022: Nuremberg
+  * [x] Winter - Spring 2023: Living in Cologne
+  * [x] Spring 2023: Frankfurt
+  * [x] Spring 2023: Aachen
+- ~~Visit & explore Belgium~~
+  * [x] Spring 2023: Finally tested the original Belgium Waffle in Liège :)
 - ~~Visit~~ & Explore Singapore
 - Visit & Explore Japan
 - Snorkling in Karimun Jawa for the second time
