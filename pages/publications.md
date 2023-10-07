@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publication: Natural Language Processing & AI
+## Publications: Natural Language Processing & AI
 
 - [UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text](https://doi.org/10.48550/arXiv.2307.14236) <br>
   In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, Santa Fe, New Mexico, USA, June 26 - 30, 2023. <br>
@@ -18,7 +18,12 @@ permalink: /publications/
   Published in PloS One (2020) <br>
   Authors: Panggih Kusuma NINGRUM, Tatdow PANSOMBUT, Attachai UERANANTASUN
 
-## Publication: AI & Law
+- [Identifying Gender Stereotypes in Indonesia for Accounting Job Positions in Online Job Ads](http://st.sat.psu.ac.th/seminar/ResearchMethod2018/program.html) <br>
+  In: International workshop - Research Method in Practice (2018) <br>
+  Institution: Faculty of Science & Technology, Prince of Songkla University, Thailand <br>
+  Authors: Panggih Kusuma NINGRUM, Attachai UERANANTASUN, Tatdow PANSOMBUT
+
+## Publications: AI & Law
 
 - [The Role of the Artificial Intelligence in the Labour Law Relations in European and Asian Aspect](https://dergipark.org.tr/en/pub/insanveinsan/issue/65253/976915) <br>
   Published in İnsan ve İnsan (2021) <br>
@@ -33,11 +38,6 @@ permalink: /publications/
   Presented at Internetes platformok kora – társadalmi hatások és szabályozási kihívások conference (2021) <br>
   Institution: Information Society Research Institute of the National Public Service University, Hungary <br>
   Authors: Gábor MÉLYPTAKI, Zsófia RİCZU, Dávid MÁTÉ, Panggih Kusuma NİNGRUM 
-  
-- [Identifying Gender Stereotypes in Indonesia for Accounting Job Positions in Online Job Ads](http://st.sat.psu.ac.th/seminar/ResearchMethod2018/program.html) <br>
-  Presented at International workshop - Research Method in Practice (2018) <br>
-  Institution: Faculty of Science & Technology, Prince of Songkla University, Thailand <br>
-  Authors: Panggih Kusuma NINGRUM, Attachai UERANANTASUN, Tatdow PANSOMBUT
  
  *The list will be updated soon :)*
  
