@@ -25,11 +25,13 @@ The rest of my current priorities are declared at this page: [**Current Activiti
 - Mobility program in abroad in 2023
 - Publish min. 1 paper/year
   * [x] May 2022: Published a book chapter in Springer Nature
+  * [x] Junly 2023: 2 articles got accepted in reputable international conferences
 - Launching a ♬ mini album
 - Finishing 1 book/year
 
 ## Skill Goals
-- Become a Python native in 2022
+- ~~Become a Python native in 2022~~
+  * [x] Built an NLP-based interactive system
 - Coding practice min. 1 hour/day
 - Become fluent in French: Reach A2 level in 2023
 - Learn min. 3 new longboard tricks/year
@@ -39,6 +41,8 @@ The rest of my current priorities are declared at this page: [**Current Activiti
 
 ## Events to Attend
 - Participate at International Conferences about AI/NLP
+  * [x] 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, Santa Fe, New Mexico, USA, June 26 - 30, 2023
+  * [x] 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI 2023), Bloomington, Indiana, US, July 2 - 5, 2023
 - Participate at a Datathon/Hackathon
 - Sing a long at Switchfoot concert! Please Switchfoot... Come to French or EU ❤
 
