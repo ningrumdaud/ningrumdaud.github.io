@@ -4,10 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
+## Publication: Natural Language Processing & AI
+
 - [UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text](https://doi.org/10.48550/arXiv.2307.14236) <br>
-  In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) <br>
-  and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, <br>
-  Santa Fe, New Mexico, USA, June 26 - 30, 2023. <br>
+  In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, Santa Fe, New Mexico, USA, June 26 - 30, 2023. <br>
   Authors: Panggih Kusuma NINGRUM, Philipp MAYR, Iana ATANASSOVA
 
 - [Scientific Uncertainty: an Annotation Framework and Corpus Study in Different Disciplines](https://www.conftool.pro/issi2023/index.php/Ningrum-Scientific_Uncertainty-277.docx?page=downloadPaper&filename=Ningrum-Scientific_Uncertainty-277.docx&form_id=277&form_version=final) <br>
@@ -17,7 +17,9 @@ permalink: /publications/
 - [Text mining of online job advertisements to identify direct discrimination during job hunting process: A case study in Indonesia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233746) <br>
   Published in PloS One (2020) <br>
   Authors: Panggih Kusuma NINGRUM, Tatdow PANSOMBUT, Attachai UERANANTASUN
-  
+
+## Publication: AI & Law
+
 - [The Role of the Artificial Intelligence in the Labour Law Relations in European and Asian Aspect](https://dergipark.org.tr/en/pub/insanveinsan/issue/65253/976915) <br>
   Published in İnsan ve İnsan (2021) <br>
   Authors: Gábor MÉLYPTAKI, Zsófia RİCZU, Dávid MÁTÉ, Panggih Kusuma NİNGRUM
@@ -64,7 +66,7 @@ permalink: /publications/
   </details>
 
 <details><summary>Invited Speaker at Webinar "Exlusive International Webinars - Become a productive generation in the society 5.0 Era", Universitas Negeri Semarang (2023)</summary>
-  <img src="assets/images/unnes2023.jpeg" name="image-name" width="340" height="340">
+  <img src="assets/images/unnes2023.jpeg" name="image-name" width="300" height="300">
   </details>
 
 <details><summary>Invited Speaker at Expertise Class, BritzoneId (2022)</summary>
@@ -86,10 +88,9 @@ permalink: /publications/
   </details>
   
 
+***
 
-<!-- ***
-
-## NEWS/MEDIA
+## News/Media Highlights
 
 - Media Review (Indonesia): [Webinar Jobs and Research Opportunities In Data Science](http://sekitarunnes.blogspot.com/2021/07/pentingnya-data-scientist-di-era.html), July 2021
-- Newspaper (Indonesia): [Magang Untuk Mahasiswa Penting Nggak Sih?](https://issuu.com/joglosemar/docs/e-paper_13_mei_2016/10), May 2016 -->
+- Newspaper (Indonesia): [Magang Untuk Mahasiswa Penting Nggak Sih?](https://issuu.com/joglosemar/docs/e-paper_13_mei_2016/10), May 2016
