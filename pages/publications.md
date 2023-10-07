@@ -64,7 +64,7 @@ permalink: /publications/
   </details>
 
 <details><summary>Invited Speaker at Webinar "Exlusive International Webinars - Become a productive generation in the society 5.0 Era", Universitas Negeri Semarang (2023)</summary>
-  <img src="assets/images/unnes2023.jpeg" name="image-name" width="350" height="350">
+  <img src="assets/images/unnes2023.jpeg" name="image-name" width="340" height="340">
   </details>
 
 <details><summary>Invited Speaker at Expertise Class, BritzoneId (2022)</summary>
