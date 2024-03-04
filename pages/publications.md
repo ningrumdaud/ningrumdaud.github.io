@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications: Natural Language Processing & AI
+## Publications: Natural Language Processing
 
 - [UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text](https://doi.org/10.48550/arXiv.2307.14236) <br>
   In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, Santa Fe, New Mexico, USA, June 26 - 30, 2023. <br>
@@ -13,6 +13,10 @@ permalink: /publications/
 - [Scientific Uncertainty: an Annotation Framework and Corpus Study in Different Disciplines](https://www.conftool.pro/issi2023/index.php/Ningrum-Scientific_Uncertainty-277.docx?page=downloadPaper&filename=Ningrum-Scientific_Uncertainty-277.docx&form_id=277&form_version=final) <br>
   In: 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI 2023), Bloomington, Indiana, US. <br>
   Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA
+  
+- [Text classification beyond words: Harnessing Linguistic Features for Automatic Classification of Scientific Texts]() <br>
+  In: Science Week 2023 – Applied Informatics Conference, University of Dunaújvárosi, Hungary (2023). <br>
+  Authors: Panggih Kusuma NINGRUM
 
 - [Text mining of online job advertisements to identify direct discrimination during job hunting process: A case study in Indonesia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233746) <br>
   Published in PloS One (2020) <br>
@@ -47,6 +51,12 @@ permalink: /publications/
 
 - [Modelling Uncertainty in Science (InSciM)](https://project-inscim.github.io/), France (2022 - present) <br>
   Funded by French ANR JCJC [(ANR-21-CE38-0003-01)](https://anr.fr/Projet-ANR-21-CE38-0003)
+
+- Research collaboration project with GESIS - Leibniz Institute for the Social Science, Germany (2023 – present) <br>
+  Topic: Information extraction & text classification
+
+- Research collaboration project with Université du Québec à Montréal, Canada (2023 – present) <br>
+  Topic: Text analysis in Astrobiology research
   
 - Research collaboration project with Faculty of Law - University of Miskolc - Miskolci Egyetem, Hungary (2020 - 2021) <br>
   Topic: Artificial Intelligence & Labour Law
@@ -60,6 +70,10 @@ permalink: /publications/
 ***
 
 ## Talks & Events
+
+<details><summary>Invited Speaker at the International Conference ""Leveraging Global Entrepreneurship Index to Enhance National Competitiveness", Wahid Hasyim University (2024)</summary>
+  <img src="/assets/images/unwahas2024.jpeg" name="image-name" width="350" height="350">
+  </details>
 
 <details><summary>Invited Speaker at Webinar "Coding Kids From Sawahlunto to France", Coding Kids (2023)</summary>
   <img src="/assets/images/ad2-23.jpeg" name="image-name" width="350" height="350">
