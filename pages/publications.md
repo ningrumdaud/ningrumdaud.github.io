@@ -27,7 +27,7 @@ permalink: /publications/
   Institution: Faculty of Science & Technology, Prince of Songkla University, Thailand <br>
   Authors: Panggih Kusuma NINGRUM, Attachai UERANANTASUN, Tatdow PANSOMBUT
 
-## Publications: AI & Law
+## Publications: AI and Others
 
 - [The Role of the Artificial Intelligence in the Labour Law Relations in European and Asian Aspect](https://dergipark.org.tr/en/pub/insanveinsan/issue/65253/976915) <br>
   Published in İnsan ve İnsan (2021) <br>
