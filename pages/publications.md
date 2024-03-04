@@ -71,7 +71,7 @@ permalink: /publications/
 
 ## Talks & Events
 
-<details><summary>Invited Speaker at the International Conference ""Leveraging Global Entrepreneurship Index to Enhance National Competitiveness", Wahid Hasyim University (2024)</summary>
+<details><summary>Invited Speaker at the International Conference "Leveraging Global Entrepreneurship Index to Enhance National Competitiveness", Wahid Hasyim University (2024)</summary>
   <img src="/assets/images/unwahas2024.jpeg" name="image-name" width="350" height="350">
   </details>
 
