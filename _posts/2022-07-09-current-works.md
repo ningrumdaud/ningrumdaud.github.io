@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Current Activities"
-author: sal
+author: Ningrum
 categories: [ Life ]
 image: assets/images/currentwork.png
 ---
