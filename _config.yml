@@ -27,7 +27,7 @@ authors:
   Ning:
     name: Panggih Kusuma Ningrum
     display_name: Panggih Kusuma Ningrum
-    avatar: '../assets/images/ning.jpeg'
+    avatar: '/assets/images/ning.jpeg'
     email: panggih_kusuma.ningrum@univ-fcomte.fr
     web: https://ningrumdaud.github.io
     twitter: https://twitter.com/ningrum_daud
