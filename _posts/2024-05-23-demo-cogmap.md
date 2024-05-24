@@ -17,7 +17,7 @@ The primary focus of the code is to:
 5. Visualise the cognitive map from the text, focusing on the causal mapping.
 
 ## Pipeline
-<img src="assets/images/cogmap-pipeline.png" name="image-name" width="500" height="350">
+![CogMap Pipeline](../assets/images/cogmap-pipeline.png)
 
 The pipeline for the cognitive map analysis tool is illustrated in the following steps. It starts with the input text that needs to be analyzed for causal relationships.
 
@@ -274,7 +274,8 @@ if __name__ == "__main__":
 
 ```
 
-The CogMApp demo is available to public on Hugging Face: [](https://huggingface.co/spaces/ningrumdaud/CogMap-Demo)
+The CogMApp demo is available to the public on Hugging Face: [CogMap Demo](https://huggingface.co/spaces/ningrumdaud/CogMap-Demo)
+
 
 <img src="assets/images/cogmapdemo.png" name="image-name" width="500" height="350">
 
