@@ -254,27 +254,37 @@ def CogMapAnalysis(text):
         return formatted_result, plot
 
 # Create the GUI using the 'gr' library
+
 with gr.Blocks() as demo:
-    with gr.Column():
-        gr.Markdown('<div style="text-align: center;"><h1><strong>CogMApp</strong></h1></div> <div style="text-align: center;"><h3></h3></div>')
+    gr.Markdown('# CogMApp')
+    gr.Markdown('### Generate cognitive maps from text with one click!')
 
     with gr.Row():
-        inputs = gr.Textbox(label="Input", lines=2, placeholder="Enter your text here...")
-        examples = [
-            "Public support for anti-discrimination laws and the movement to support immigrants grew due to the impact of getting widespread education on social justice issues.",
-            "The introduction of new anti-discrimination laws has been driven by an increasing awareness of social injustices and grassroots movements.",
-            "CogMApp is a tool that lets you create cognitive maps from text."
-        ]
+        with gr.Column():
+            inputs = gr.Textbox(label="Input", lines=2, placeholder="Enter your text here...")
+            submit_button = gr.Button("Submit")
+        with gr.Column():
+            examples = gr.Examples(examples=[
+                "Public support for anti-discrimination laws and the movement to support immigrants grew due to the impact of getting widespread education on social justice issues.",
+                "The introduction of new anti-discrimination laws has been driven by an increasing awareness of social injustices and grassroots movements.",
+                "The weak law enforcement in this country is due to its citizens's ignorance.",
+                "CogMApp is a tool that lets you create cognitive maps from text."
+            ], inputs=inputs)
 
-        output = gr.Textbox(label="CogMApp", lines=1, placeholder=" ")
-        cogmap_plot = gr.Plot(label="Visualization")
-        interface = gr.Interface(fn=CogMapAnalysis, examples=examples, inputs=inputs, outputs=[output, cogmap_plot])
-    
     with gr.Row():
-        gr.Markdown("⚠️  Feel free to flag me if you find any errors. :)")
-    
+        output = gr.Textbox(label="Result", lines=5, placeholder=" ")
+
+    with gr.Row():
+        cogmap_plot = gr.Plot(label="Generated Cognitive Map")
+
+    with gr.Row():
+        gr.Markdown("⚠️ Feel free to flag me if you find any errors. 🙂")
+
     with gr.Column():
-        gr.Markdown('<p style="text-align: center; ">Demo made with ❤ by P.K. Ningrum (2024) | Contact: panggih_kusuma.ningrum@univ-fcomte.fr</p>')
+        gr.Markdown('Demo made with ❤ by P.K. Ningrum (2024) | Contact: [https://ningrumdaud.github.io/](https://ningrumdaud.github.io/)')
+
+    # Set up the button to execute the function when clicked
+    submit_button.click(CogMapAnalysis, inputs=[inputs], outputs=[output, cogmap_plot])
 
 if __name__ == "__main__":
     demo.launch(show_api=False, share=True)
