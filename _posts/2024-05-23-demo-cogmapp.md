@@ -6,7 +6,9 @@ categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
 
-https://github.com/ningrumdaud/ningrumdaud.github.io/assets/66003005/4cd243a0-137e-477e-92fb-e58ab04246bd
+(https://youtu.be/bveIyg0b5NU)
+
+[![](https://youtu.be/bveIyg0b5NU "CogMApp Demo on Hugging Face (Click Play button to watch)")](https://youtu.be/bveIyg0b5NU)
 CogMApp Demo on Hugging Face (Click Play button to watch)
 
 ## Introduction
