@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CogMApp Demo"
+authors: Ningrum
 categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
