@@ -236,12 +236,12 @@ list_causalmarkers = cues['causal_markers']
 extractor = NounExtractor(nlp=nlp)
 
 # Example of how to use this function
-words_list = ["so", "because", "increase", "contribute", "due to"] # Adding more markers here
+# list_causalmarkers = ["so", "because", "increase", "contribute", "due to"] # Adding more markers here
 causative_verb = ['affect', 'influence', 'increase', 'against'] # Adding more narkers here
 
 # Define the callback function for the GUI
 def CogMapAnalysis(text):
-    if contains_words_or_phrases(words_list, text):
+    if contains_words_or_phrases(list_causalmarkers, text):
         result = extractor.extract(text, causative_verb)
         formatted_result = format_results(result)
         plot = visualize_cognitive_map(formatted_result)
