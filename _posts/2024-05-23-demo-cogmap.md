@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "CogMApp Demo"
-author: "Panggih Kusuma Ningrum"
 categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
