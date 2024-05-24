@@ -6,7 +6,7 @@ categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
 
-![CogMApp Demo](../assets/images/CogMApp-Demo.mp4 "CogMApp Demo on Hugging Face (Click Play button to watch)")
+![CogMApp Demo](assets/images/CogMApp-Demo.mp4 "CogMApp Demo on Hugging Face (Click Play button to watch)")
 <video width="320" height="240" controls>
   <source src="../assets/images/CogMApp-Demo.mp4" type="video/mp4">
 </video>
