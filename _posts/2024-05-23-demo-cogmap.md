@@ -100,11 +100,10 @@ class NounExtractor:
 
 Once the phrases are extracted, CogMApp identifies their roles as either cause or effect, which is essential for understanding causal relationships within the sentence. This involves checking the dependencies and linguistic features of each phrase to assign accurate dependency labels.
 
-![Sentence Structure](../assets/images/assets/images/sentence-structure.png)
+![Sentence Structure](../assets/images/sentence-structure.png)
 
 The tool examines the type and pattern of the entire sentence, particularly looking for passive voice constructions. By analyzing linguistic features, it determines the role of the subject, identifying whether it is a 'nsubj' (noun subject) or 'nsubjpass' (noun subject passive). If any word in the phrase has the dependency tag 'nsubj' or 'nsubjpass', the phrase is labeled as the ROOT (effect). Otherwise, the tag from the last word in the phrase is used as the final dependency label .
 
-<img src="assets/images/passive-example.png" name="image-name" width="500" height="350">
 ![Causative word in text](../assets/images/passive-example.png)
 
 
