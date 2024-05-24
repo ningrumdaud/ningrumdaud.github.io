@@ -10,12 +10,12 @@ topmenu:
 - title: Portfolio
   url: "portfolio/"
   
-- title: CV
-  url: "https://ningrumdaud.github.io/online-resume"
-  external: true
+# - title: CV
+#   url: "https://ningrumdaud.github.io/online-resume"
+#   external: true
 
-- title: Impossible List
-  url: "posslist/"
+# - title: Impossible List
+#   url: "posslist/"
 
 - title: Contact
   url: "contact/"
