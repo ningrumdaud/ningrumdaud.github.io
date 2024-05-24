@@ -8,7 +8,7 @@ image: assets/images/cogmapp_small.png
 
 (https://youtu.be/bveIyg0b5NU)
 
-[![](https://youtu.be/bveIyg0b5NU "CogMApp Demo on Hugging Face (Click Play button to watch)")](https://youtu.be/bveIyg0b5NU)
+![](assets/images/CogMApp-Demo.mp4 "CogMApp Demo on Hugging Face (Click Play button to watch)")
 CogMApp Demo on Hugging Face (Click Play button to watch)
 
 ## Introduction
