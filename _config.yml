@@ -23,8 +23,8 @@ sass:
 ganalytics: UA-113961478-1
 
 # Authors
-authors:
-  sal:
+author:
+  Ning:
     name: Panggih Kusuma Ningrum
     display_name: Panggih Kusuma Ningrum
     avatar: 'assets/images/ning.jpeg'
@@ -32,14 +32,6 @@ authors:
     web: https://ningrumdaud.github.io
     twitter: https://twitter.com/ningrum_daud
     description: "Hi! I'm Ning"
-  #john:
-    #name: John
-    #display_name: John
-    #avatar: 'assets/images/john.png'
-    #email: wowthemesnet@gmail.com
-    #web: https://www.wowthemes.net/category/jekyll-themes/
-    #twitter: https://twitter.com/wowthemesnet
-    #description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
 # Social
 social:
