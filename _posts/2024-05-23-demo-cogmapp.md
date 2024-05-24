@@ -6,10 +6,8 @@ categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
 
-![CogMApp Demo](assets/images/CogMApp-Demo.mp4 "CogMApp Demo on Hugging Face (Click Play button to watch)")
-<video width="320" height="240" controls>
-  <source src="../assets/images/CogMApp-Demo.mp4" type="video/mp4">
-</video>
+https://github.com/ningrumdaud/ningrumdaud.github.io/assets/66003005/4cd243a0-137e-477e-92fb-e58ab04246bd
+CogMApp Demo on Hugging Face (Click Play button to watch)
 
 ## Introduction
 In this blog post, we will walk through a sample code that demonstrates how to create CogMApp, a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. This tool utilizes natural language processing (NLP) techniques to extract and visualize these relationships. We will break down the algorithm and pipeline used, and discuss areas for potential improvement.
