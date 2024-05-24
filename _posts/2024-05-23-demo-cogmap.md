@@ -17,14 +17,11 @@ The primary focus of the code is to:
 5. Visualise the cognitive map from the text, focusing on the causal mapping.
 
 ## Pipeline
-<img src="assets/images/cogmap-pipeline.png" alt="CogMApp Pipeline">
+<img src="assets/images/cogmap-pipeline.png" name="image-name" width="500" height="350">
 
-The pipeline for the cognitive map analysis tool is illustrated in the following steps:
-**1. Text Input**
+The pipeline for the cognitive map analysis tool is illustrated in the following steps. It starts with the input text that needs to be analyzed for causal relationships.
 
-The pipeline starts with the input text that needs to be analyzed for causal relationships.
-
-**2. Detecting Causal Expression**
+**1. Detecting Causal Expression**
 
 CogMApp first detects the presence of causal expressions in the text using a predefined lexicon of causal markers. This step ensures that only relevant sentences containing causal relationships are processed further. This step is Lexicon-Based which uses a predefined lexicon of causal markers to identify sentences that contain causal expressions. To construct the lexicon, a list of causal links from Altenberg (1984) was used. These markers are read from an external file and include words and phrases such as 'because', 'due to', 'results in', etc.
 
@@ -99,15 +96,15 @@ class NounExtractor:
         return merged_phrases
 ```
 
-**4. Identifying the Role of the Words/Phrases (Cause/Effect)**
+**3. Identifying the Role of the Words/Phrases (Cause/Effect)**
 
 Once the phrases are extracted, CogMApp identifies their roles as either cause or effect, which is essential for understanding causal relationships within the sentence. This involves checking the dependencies and linguistic features of each phrase to assign accurate dependency labels.
 
-<img src="assets/images/assets/images/sentence-structure.png" alt="Sentence structure">
+<img src="assets/images/assets/images/sentence-structure.png" name="image-name" width="500" height="350">
 
 The tool examines the type and pattern of the entire sentence, particularly looking for passive voice constructions. By analyzing linguistic features, it determines the role of the subject, identifying whether it is a 'nsubj' (noun subject) or 'nsubjpass' (noun subject passive). If any word in the phrase has the dependency tag 'nsubj' or 'nsubjpass', the phrase is labeled as the ROOT (effect). Otherwise, the tag from the last word in the phrase is used as the final dependency label .
 
-<img src="assets/images/passive-example.png" alt="Causative verb in text">
+<img src="assets/images/passive-example.png" name="image-name" width="500" height="350">
 
 Additionally, the presence of causative verbs like 'cause', 'affect', and 'influence' is taken into account. These verbs can alter the roles of the phrases and their causal relationships. For example, in the sentence "New laws and rules for 2024 affect wages and taxes," the verb 'affect' helps in determining the causal relationship between the phrases. 
 
@@ -145,7 +142,7 @@ def determine_dep_label(self, deps_in_phrase):
         return result_dict
 
 ```
-**5. Determining the Direction of the Causal Relationship**
+**4. Determining the Direction of the Causal Relationship**
 
 The next step is to ascertain the direction of the causal relationship between the identified phrases. The algorithm determines the direction based on the role of the words or phrases, taking into account the dependency labels. The ROOT of the causal relationship will be identified as the point towards which the arrow is pointing. To illustrate, we can posit that "rising prices [ROOT] <- inflation".
 
@@ -169,7 +166,7 @@ def format_results(results):
     return formatted
 ```
 
-**6. Visualization**
+**5. Visualization**
 
 Finally, the relationships are visualized using NetworkX and Matplotlib, creating a cognitive map that clearly displays the causal connections between the concepts. The final output is an interactive cognitive map that can be used to visualize and understand the causal relationships within the provided text.
 
@@ -212,7 +209,7 @@ def visualize_cognitive_map(formatted_results):
     return plt
 ```
 
-**7. Deploying CogMApp Demo using Gradio**
+## Deploying CogMApp Demo using Gradio
 
 The Gradio interface is created to allow users to test the CogMApp Demo. The user can input text and CogMApp will analyse and convert the text into a cognitive map.
 
@@ -234,8 +231,8 @@ list_causalmarkers = cues['causal_markers']
 extractor = NounExtractor(nlp=nlp)
 
 # Example of how to use this function
-words_list = ["so", "because", "increase", "contribute", "due to"]
-causative_verb = ['affect', 'influence', 'increase', 'against']
+words_list = ["so", "because", "increase", "contribute", "due to"] # Adding more markers here
+causative_verb = ['affect', 'influence', 'increase', 'against'] # Adding more narkers here
 
 # Define the callback function for the GUI
 def CogMapAnalysis(text):
@@ -279,7 +276,7 @@ if __name__ == "__main__":
 
 The CogMApp demo is available to public on Hugging Face: [](https://huggingface.co/spaces/ningrumdaud/CogMap-Demo)
 
-<img src="assets/images/cogmapdemo.png" alt="CogMApp Demo">
+<img src="assets/images/cogmapdemo.png" name="image-name" width="500" height="350">
 
 ## Future Features for Improvement
 
