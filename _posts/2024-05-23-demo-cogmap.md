@@ -2,7 +2,7 @@
 layout: post
 title:  "CogMApp Demo"
 categories: [ portfolio ]
-image: assets/images/cogmapnlp.jpeg
+image: assets/images/cogmapp.png
 ---
 
 ## Introduction
@@ -17,7 +17,7 @@ The primary focus of the code is to:
 5. Visualise the cognitive map from the text, focusing on the causal mapping.
 
 ## Pipeline
-![CogMApp Pipeline](assets/images/cogmap-pipeline.png)
+<img src="assets/images/cogmap-pipeline.png" alt="CogMApp Pipeline">
 
 The pipeline for the cognitive map analysis tool is illustrated in the following steps:
 **1. Text Input**
@@ -103,11 +103,11 @@ class NounExtractor:
 
 Once the phrases are extracted, CogMApp identifies their roles as either cause or effect, which is essential for understanding causal relationships within the sentence. This involves checking the dependencies and linguistic features of each phrase to assign accurate dependency labels.
 
-![Sentence structure](assets/images/assets/images/sentence-structure.png)
+<img src="assets/images/assets/images/sentence-structure.png" alt="Sentence structure">
 
 The tool examines the type and pattern of the entire sentence, particularly looking for passive voice constructions. By analyzing linguistic features, it determines the role of the subject, identifying whether it is a 'nsubj' (noun subject) or 'nsubjpass' (noun subject passive). If any word in the phrase has the dependency tag 'nsubj' or 'nsubjpass', the phrase is labeled as the ROOT (effect). Otherwise, the tag from the last word in the phrase is used as the final dependency label .
 
-![Causative verb in text](assets/images/passive-example.png)
+<img src="assets/images/passive-example.png" alt="Causative verb in text">
 
 Additionally, the presence of causative verbs like 'cause', 'affect', and 'influence' is taken into account. These verbs can alter the roles of the phrases and their causal relationships. For example, in the sentence "New laws and rules for 2024 affect wages and taxes," the verb 'affect' helps in determining the causal relationship between the phrases. 
 
@@ -279,7 +279,7 @@ if __name__ == "__main__":
 
 The CogMApp demo is available to public on Hugging Face: [](https://huggingface.co/spaces/ningrumdaud/CogMap-Demo)
 
-![CogMApp Demo](assets/images/cogmapdemo.png)
+<img src="assets/images/cogmapdemo.png" alt="CogMApp Demo">
 
 ## Future Features for Improvement
 
