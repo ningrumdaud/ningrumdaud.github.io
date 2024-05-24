@@ -417,7 +417,7 @@ ul.tags li a:hover {
     border-radius:999em;
     font-size:0.85rem;
     display:inline-block;
-        box-shadow: none;
+    box-shadow: none;
     font-weight:400;
 }
 .btn.subscribe {
@@ -631,4 +631,50 @@ span.navigation:before {
 .hover-opacity:hover {
     transition: all.3s;
     opacity:.8;
+}
+
+/* New CSS for Author Block */
+.author-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.author-avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border: 2px solid #eee;
+    object-fit: cover;
+}
+
+.author-info {
+    flex: 1;
+}
+
+.author-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.author-description {
+    margin: 5px 0;
+    color: #666;
+}
+
+.author-links a {
+    color: #1a0dab;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.author-links a:hover {
+    text-decoration: underline;
 }
