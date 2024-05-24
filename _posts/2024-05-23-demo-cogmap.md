@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "CogMapNLP Demo"
+title:  "CogMApp Demo"
 categories: [ portfolio ]
 image: assets/images/cogmapnlp.jpeg
 ---
 
 ## Introduction
-In this blog post, we will walk through a sample code that demonstrates how to create CogMapNLP, a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. This tool utilizes natural language processing (NLP) techniques to extract and visualize these relationships. We will break down the algorithm and pipeline used, and discuss areas for potential improvement.
+In this blog post, we will walk through a sample code that demonstrates how to create CogMApp, a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. This tool utilizes natural language processing (NLP) techniques to extract and visualize these relationships. We will break down the algorithm and pipeline used, and discuss areas for potential improvement.
 
-## (Current) Scope of the CogMapNLP
+## (Current) Scope of the CogMApp
 The primary focus of the code is to:
-1. Identify causal expressions within the text. CogMapNLP uses the pre-defined lexicon of causal markers to detect sentences that contain causal relationships.
+1. Identify causal expressions within the text. CogMApp uses the pre-defined lexicon of causal markers to detect sentences that contain causal relationships.
 2. Extract words and phrases that indicate causality, ensuring that these phrases are descriptive. The aim is to get clear information, not just chunks of text.
-3. Identify the direction of causal relationships between the extracted words and phrases. CogMapNLP determines their role in the text, whether as a root (cause) or as branches (effects).
+3. Identify the direction of causal relationships between the extracted words and phrases. CogMApp determines their role in the text, whether as a root (cause) or as branches (effects).
 4. Detect one degree of causality at a simple sentence level. It also works well to identify multiple effects and causes within the text, providing a comprehensive view of causal relationships.
 5. Visualise the cognitive map from the text, focusing on the causal mapping.
 
 ## Pipeline
-![](assets/images/cogmap-pipeline.png "CogMapNLP Pipeline")
+![](assets/images/cogmap-pipeline.png "CogMApp Pipeline")
 
 The pipeline for the cognitive map analysis tool is illustrated in the following steps:
 **1. Text Input**
@@ -26,7 +26,7 @@ The pipeline starts with the input text that needs to be analyzed for causal rel
 
 **2. Detecting Causal Expression**
 
-CogMapNLP first detects the presence of causal expressions in the text using a predefined lexicon of causal markers. This step ensures that only relevant sentences containing causal relationships are processed further. This step is Lexicon-Based which uses a predefined lexicon of causal markers to identify sentences that contain causal expressions. To construct the lexicon, a list of causal links from Altenberg (1984) was used. These markers are read from an external file and include words and phrases such as 'because', 'due to', 'results in', etc.
+CogMApp first detects the presence of causal expressions in the text using a predefined lexicon of causal markers. This step ensures that only relevant sentences containing causal relationships are processed further. This step is Lexicon-Based which uses a predefined lexicon of causal markers to identify sentences that contain causal expressions. To construct the lexicon, a list of causal links from Altenberg (1984) was used. These markers are read from an external file and include words and phrases such as 'because', 'due to', 'results in', etc.
 
 ``` python
 def contains_words_or_phrases(words_list, sentence):
@@ -101,7 +101,7 @@ class NounExtractor:
 
 **4. Identifying the Role of the Words/Phrases (Cause/Effect)**
 
-Once the phrases are extracted, CogMapNLP identifies their roles as either cause or effect, which is essential for understanding causal relationships within the sentence. This involves checking the dependencies and linguistic features of each phrase to assign accurate dependency labels.
+Once the phrases are extracted, CogMApp identifies their roles as either cause or effect, which is essential for understanding causal relationships within the sentence. This involves checking the dependencies and linguistic features of each phrase to assign accurate dependency labels.
 
 ![](assets/images/assets/images/sentence-structure.png "sentence structure")
 
@@ -212,9 +212,9 @@ def visualize_cognitive_map(formatted_results):
     return plt
 ```
 
-**7. Deploying CogMapNLP Demo using Gradio**
+**7. Deploying CogMApp Demo using Gradio**
 
-The Gradio interface is created to allow users to test the CogMapNLP Demo. The user can input text and CogMapNLP will analyse and convert the text into a cognitive map.
+The Gradio interface is created to allow users to test the CogMApp Demo. The user can input text and CogMApp will analyse and convert the text into a cognitive map.
 
 ``` python
 import gradio as gr
@@ -252,17 +252,17 @@ def CogMapAnalysis(text):
 # Create the GUI using the 'gr' library
 with gr.Blocks() as demo:
     with gr.Column():
-        gr.Markdown('<div style="text-align: center;"><h1><strong>CogMapNLP</strong></h1></div> <div style="text-align: center;"><h3></h3></div>')
+        gr.Markdown('<div style="text-align: center;"><h1><strong>CogMApp</strong></h1></div> <div style="text-align: center;"><h3></h3></div>')
 
     with gr.Row():
         inputs = gr.Textbox(label="Input", lines=2, placeholder="Enter your text here...")
         examples = [
             "Public support for anti-discrimination laws and the movement to support immigrants grew due to the impact of getting widespread education on social justice issues.",
             "The introduction of new anti-discrimination laws has been driven by an increasing awareness of social injustices and grassroots movements.",
-            "CogMap is a tool that lets you create cognitive maps from text."
+            "CogMApp is a tool that lets you create cognitive maps from text."
         ]
 
-        output = gr.Textbox(label="CogMap", lines=1, placeholder=" ")
+        output = gr.Textbox(label="CogMApp", lines=1, placeholder=" ")
         cogmap_plot = gr.Plot(label="Visualization")
         interface = gr.Interface(fn=CogMapAnalysis, examples=examples, inputs=inputs, outputs=[output, cogmap_plot])
     
@@ -277,12 +277,12 @@ if __name__ == "__main__":
 
 ```
 
-The CogMapNLP demo is available to public on Hugging Face: https://huggingface.co/spaces/ningrumdaud/CogMap-Demo
+The CogMApp demo is available to public on Hugging Face: https://huggingface.co/spaces/ningrumdaud/CogMap-Demo
 
 
 ## Future Features for Improvement
 
-To further enhance CogMapNLP, several advanced features can be implemented:
+To further enhance CogMApp, several advanced features can be implemented:
 
 1. **Analyzing More Complex Sentences:** Extend the tool's capabilities to handle more complex sentences that may exhibit multi-layered causal relationships. This would involve deeper parsing and analysis of nested causal structures.
 
