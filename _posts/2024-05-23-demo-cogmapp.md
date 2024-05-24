@@ -26,7 +26,7 @@ The pipeline for the cognitive map analysis tool is illustrated in the following
 
 **1. Detecting Causal Expression**
 
-CogMApp first detects the presence of causal expressions in the text using a predefined lexicon of causal markers. This step ensures that only relevant sentences containing causal relationships are processed further. This step is Lexicon-Based which uses a predefined lexicon of causal markers to identify sentences that contain causal expressions. To construct the lexicon, a list of causal links from Altenberg (1984) was used. These markers are read from an external file and include words and phrases such as 'because', 'due to', 'results in', etc.
+CogMApp first detects the presence of causal expressions in the text using a predefined lexicon of causal markers. This step ensures that only relevant sentences containing causal relationships are processed further. This step is Lexicon-Based which uses a predefined lexicon of causal markers to identify sentences that contain causal expressions. To construct the lexicon, a list of causal links from Altenberg (1984) was used. These markers are read from an external file and include words and phrases such as 'because', 'due to', 'results in', etc. In the following code, the causal marker lexicon is called 'words_list'.
 
 ``` python
 def contains_words_or_phrases(words_list, sentence):
