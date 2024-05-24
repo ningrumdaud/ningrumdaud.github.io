@@ -6,7 +6,7 @@ categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
 
-![COgMApp Demo](../assets/images/cogmapdemo.png)
+![CogMApp Demo](../assets/images/CogMApp-Demo.mp4 "CogMApp Demo on Hugging Face (Click Play button to watch)")
 
 ## Introduction
 In this blog post, we will walk through a sample code that demonstrates how to create CogMApp, a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. This tool utilizes natural language processing (NLP) techniques to extract and visualize these relationships. We will break down the algorithm and pipeline used, and discuss areas for potential improvement.
@@ -20,7 +20,7 @@ The primary focus of the code is to:
 5. Visualise the cognitive map from the text, focusing on the causal mapping.
 
 ## Pipeline
-![CogMap Pipeline](../assets/images/cogmap-pipeline.png)
+![CogMApp Pipeline](../assets/images/cogmap-pipeline.png "CogMApp Pipeline")
 
 The pipeline for the cognitive map analysis tool is illustrated in the following steps. It starts with the input text that needs to be analyzed for causal relationships.
 
@@ -103,11 +103,11 @@ class NounExtractor:
 
 Once the phrases are extracted, CogMApp identifies their roles as either cause or effect, which is essential for understanding causal relationships within the sentence. This involves checking the dependencies and linguistic features of each phrase to assign accurate dependency labels.
 
-![Sentence Structure](../assets/images/sentence-structure.png)
+![Sentence Structure](../assets/images/sentence-structure.png "Sentence Structure")
 
 The tool examines the type and pattern of the entire sentence, particularly looking for passive voice constructions. By analyzing linguistic features, it determines the role of the subject, identifying whether it is a 'nsubj' (noun subject) or 'nsubjpass' (noun subject passive). If any word in the phrase has the dependency tag 'nsubj' or 'nsubjpass', the phrase is labeled as the ROOT (effect). Otherwise, the tag from the last word in the phrase is used as the final dependency label .
 
-![Causative word in text](../assets/images/passive-example.png)
+![Causative word in text](../assets/images/passive-example.png "Causative word in text")
 
 
 Additionally, the presence of causative verbs like 'cause', 'affect', and 'influence' is taken into account. These verbs can alter the roles of the phrases and their causal relationships. For example, in the sentence "New laws and rules for 2024 affect wages and taxes," the verb 'affect' helps in determining the causal relationship between the phrases. 
@@ -284,7 +284,7 @@ The CogMApp demo is available to the public on Hugging Face: [CogMap Demo](https
 
 In order to further optimize CogMApp, a number of enhancements can be implemented:
 
-1. **Analyzing More Complex Sentences:** Extend the tool's capabilities to handle more complex sentences that may exhibit multi-layered causal relationships. This would involve deeper parsing and analysis of nested causal structures.
+1. **Analyzing More Complex Sentences:** Enhance the tool to handle complex sentences with multi-layered causal relationships and intricate text structures through deeper parsing and analysis of nested causal patterns.
 
 2. **Handling Short and Long-Distance Causal Relationships:** Improve the tool to effectively analyze and represent both short and long-distance causal relationships within texts. This includes understanding the context in which causes and effects are mentioned.
 
