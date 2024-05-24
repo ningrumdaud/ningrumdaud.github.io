@@ -6,7 +6,7 @@ categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
 ---
 
-<video width="1000" height="700" controls>
+<video width="1000" height="500" controls>
   <source src="../assets/images/CogMApp-Demo.mp4" type="video/mp4">
 </video>
 CogMApp Demo on Hugging Face (Click Play button to watch)
