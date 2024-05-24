@@ -266,6 +266,7 @@ with gr.Blocks() as demo:
                 "Public support for anti-discrimination laws and the movement to support immigrants grew due to the impact of getting widespread education on social justice issues.",
                 "The introduction of new anti-discrimination laws has been driven by an increasing awareness of social injustices and grassroots movements.",
                 "The weak law enforcement in this country is due to its citizens's ignorance.",
+                "Smoking and unhealthy lifestyles cause lung cancer",
                 "CogMApp is a tool that lets you create cognitive maps from text."
             ], inputs=inputs)
 
