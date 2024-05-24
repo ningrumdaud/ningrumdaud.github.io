@@ -280,9 +280,9 @@ if __name__ == "__main__":
 
 The CogMApp demo is available to the public on Hugging Face: [CogMap Demo](https://huggingface.co/spaces/ningrumdaud/CogMap-Demo)
 
-## Future Features for Improvement
+## Future Improvement
 
-To further enhance CogMApp, several advanced features can be implemented:
+In order to further optimize CogMApp, a number of enhancements can be implemented:
 
 1. **Analyzing More Complex Sentences:** Extend the tool's capabilities to handle more complex sentences that may exhibit multi-layered causal relationships. This would involve deeper parsing and analysis of nested causal structures.
 
