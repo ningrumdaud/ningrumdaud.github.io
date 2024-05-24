@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A "Divergent"
-author: sal
+author: Ningrum
 categories: [ aboutme ]
 image: assets/images/aboutme.png
 ---
