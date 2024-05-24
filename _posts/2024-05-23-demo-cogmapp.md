@@ -18,7 +18,7 @@ In this blog post, we will walk through a sample code that demonstrates how to c
 The primary focus of the code is to:
 1. Identify causal expressions within the text. CogMApp uses the pre-defined lexicon of causal markers to detect sentences that contain causal relationships. The lexicon is constructed based on a study conducted by Altenberg (1984).
 2. Extract words and phrases that indicate causality, ensuring that these phrases are descriptive. The aim is to get clear information, not just chunks of text.
-3. Identify the direction of causal relationships between the extracted words and phrases. CogMApp determines their role in the text, whether as a root (cause) or as branches (effects).
+3. Identify the direction of causal relationships between the extracted words and phrases. CogMApp determines their role in the text, whether as a root (effects) or as branches (causes).
 4. Detect one degree of causality at a simple sentence level. It also works well to identify multiple effects and causes within the text, providing a comprehensive view of causal relationships.
 5. Visualise the cognitive map from the text, focusing on the causal mapping.
 
