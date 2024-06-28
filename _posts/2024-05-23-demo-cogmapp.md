@@ -33,11 +33,27 @@ CogMApp first detects the presence of causal expressions in the text using a pre
 
 ``` python
 def contains_words_or_phrases(words_list, sentence):
-    normalized_sentence = sentence.lower()
+    """
+    Check if any word or phrase from words_list is present in the sentence.
+    :param words_list: List of words or phrases to check
+    :param sentence: The input sentence where to look for words or phrases
+    :return: True if any word or phrase is found, otherwise False
+    """
+    # Process the sentence with spaCy to obtain the lemmatized form of each token
+    processed_sentence = nlp(sentence.lower())
+    lemmatized_sentence = " ".join(token.lemma_ for token in processed_sentence)
+
+    # Process each word or phrase for lemmatization
     for word_or_phrase in words_list:
-        if word_or_phrase.lower() in normalized_sentence:
-            return True
-    return False
+        # Process and create a lemma string for the word or phrase
+        processed_word_or_phrase = nlp(word_or_phrase.lower())
+        lemmatized_word_or_phrase = " ".join(token.lemma_ for token in processed_word_or_phrase)
+
+        # Check if the lemmatized word or phrase is in the lemmatized sentence
+        if lemmatized_word_or_phrase in lemmatized_sentence:
+            return True  # Return True immediately if any word or phrase is found
+
+    return False  # Return False if none of the words or phrases are found
 ```
 
 **2. Extracting Words/Phrases**
@@ -77,8 +93,8 @@ class NounExtractor:
             # Collect dependency labels for the current noun phrase
             deps_in_phrase = {list_dep_labels[tok.i] for tok in current}
 
-            # Merge logic based on 'of' construction
-            if i + 1 < len(noun_phrases) and (doc[current.end].text in ['of', 'in', 'among', 'on', 'towards', 'to', 'for']):
+            # Merge logic based on 'phrases connectors' construction
+            if i + 1 < len(noun_phrases) and (doc[current.end].text in ['of', 'in', 'among', 'on', 'towards', 'to', 'for', 'across']):
                 next_phrase = noun_phrases[i + 1]
                 if i + 2 < len(noun_phrases) and doc[next_phrase.end].dep_ == 'pcomp':
                     extended_phrase = doc[current.start:noun_phrases[i + 2].end]
@@ -120,13 +136,15 @@ def determine_dep_label(self, deps_in_phrase):
         """
         Determine the most appropriate dependency label for a phrase based on internal dependencies.
         """
-        if 'nsubj' in deps_in_phrase or 'nsubjpass' in deps_in_phrase:
-            return 'ROOT'
+        if 'nsubj' in deps_in_phrase:
+            return 'ROOTnsubj'
+        elif 'nsubjpass' in deps_in_phrase:
+            return 'ROOTnsubjpass'
         else:
             # Choose a representative dependency if no clear subject is present
             return deps_in_phrase.pop() if deps_in_phrase else 'unknown'
     
-    def extract(self, sentence, action_verb):
+    def extract(self, sentence, causative_verb):
         """
         Extracts and returns noun phrases with their detailed dependency tags from the sentence.
         """
@@ -134,18 +152,17 @@ def determine_dep_label(self, deps_in_phrase):
         noun_phrases = self.get_noun_phrases(doc)
         result_dict = {phrase: dep for phrase, dep in noun_phrases}
 
-        # Check for the presence of any causative verbs in the sentence
-        found_verbs = [v for v in action_verb if v.lower() in sentence.lower()]
+        # Check for the presence of causative verbs like 'cause',  in the sentence
+        found_verbs = [v for v in causative_verb if v.lower() in sentence.lower()]
         if found_verbs:
-            # Adjust dependency labels for noun phrases based on the presence of an actionable verb.
+            # Adjust dependency labels for noun phrases based on the presence of an causative verb.
             for phrase, dep in list(result_dict.items()):  # Work on a copy of items to safely modify the dict
-                if dep == 'ROOT':
+                if dep == 'ROOTnsubj':
                     result_dict[phrase] = 'dobj'
                 elif dep == 'dobj':
                     result_dict[phrase] = 'ROOT'
         
         return result_dict
-
 ```
 **4. Determining the Direction of the Causal Relationship**
 
@@ -155,13 +172,13 @@ The next step is to ascertain the direction of the causal relationship between t
 def format_results(results):
     formatted = []
     # Find all roots or central subjects to structure the phrases around them
-    root_keys = [key for key, value in results.items() if value == 'ROOT' or value == 'nsubjpass']
+    root_keys = [key for key, value in results.items() if value == 'ROOTnsubj' or value == 'ROOTnsubjpass']
 
     for key, value in results.items():
         if key in root_keys:
             continue  # Skip the roots themselves when adding to the formatted list
         for root_key in root_keys:
-            if value == 'nsubjpass':  # If the dependency indicates a passive subject
+            if value == 'ROOTnsubjpass':  # If the dependency indicates a passive subject
                 formatted.append(f"{key} -> {root_key}")
             else:
                 formatted.append(f"{root_key} <- {key}")
@@ -266,8 +283,8 @@ with gr.Blocks() as demo:
                 "Public support for anti-discrimination laws and the movement to support immigrants grew due to the impact of getting widespread education on social justice issues.",
                 "The introduction of new anti-discrimination laws has been driven by an increasing awareness of social injustices and grassroots movements.",
                 "The weak law enforcement in this country is due to its citizens's ignorance.",
-                "Smoking and unhealthy lifestyles cause lung cancer",
-                "CogMApp is a tool that lets you create cognitive maps from text."
+                "CogMApp is a tool that lets you create cognitive maps from text.",
+                "The protests across the country are caused by the announcement of the new regulation."
             ], inputs=inputs)
 
     with gr.Row():
