@@ -25,6 +25,6 @@ _P.S. I will update this page asap :)_
     <a href="https://ningrumdaud.github.io/demo-cogmapp/" title="Visit the CogMApp demo site">
         <img src="../assets/images/cogmapp_small.png" alt="CogMApp" style="width: 300; height: 300;">
     </a>
-    <p>CogMApp - a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. CogMApp utilizes Natural Language Processing (NLP) techniques to extract and visualize these relationships. <em>(Click the image to view UnScientify demo)</em></p>
+    <p>CogMApp - a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. CogMApp utilizes Natural Language Processing (NLP) techniques to extract and visualize these relationships. <em>(Click the image to view CogMApp demo)</em></p>
 </div>
 
