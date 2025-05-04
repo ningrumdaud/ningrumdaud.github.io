@@ -6,16 +6,40 @@ permalink: /publications/
 
 ## Publications: Natural Language Processing
 
+- [Annotating Scientific Uncertainty: A comprehensive model using linguistic patterns and comparison with existing approaches](https://doi.org/10.1016/j.joi.2025.101661) <br>
+  Published in Journal of Informetrics (2025) <br>
+  Authors: Panggih Kusuma NINGRUM, Philipp MAYR, Nina SMIRNOVA, Iana ATANASSOVA
+
+- [Is There Life on Mars? Studying the Context of Uncertainty in Astrobiology]() <br>
+  In: 20th International Conference of the International Society for Scientometrics and Informetrics (ISSI 2025), Yerevan, Armenia <br>
+  Authors: Iana ATANASSOVA, Panggih Kusuma NINGRUM, Nicolas GUTEHRLÉ, Francis LAREAU, Christophe MALATERRE
+  
+- [Etudier l'incertitude dans les articles scientifiques: mise en perspective d'une méthode linguistique](https://hal.science/hal-04916352v1/file/1002988.pdf) <br>
+  In: La conférence Extraction et Gestion des Connaissances (EGC), Strasbourg, 27-31 January 2025 (2025) <br>
+  Authors: Panggih Kusuma NINGRUM, Nicolas GUTEHRLÉ, Iana ATANASSOVA
+  
+- [Annotation of scientific uncertainty using linguistic patterns](https://doi.org/10.1007/s11192-024-05009-z) <br>
+  Published in Scientometrics (2024) <br>
+  Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA
+  
+- [Navigating the Unknown: A Textual Analysis of Uncertainty in Astrobiology Research](https://hal.science/hal-04780332/) <br>
+  In: Congress of the Canadian Society for the History and Philosophy of Science (CSHPS), Canada (2024) <br>
+  Authors: Christophe MALATERRE, Iana ATANASSOVA, Francis LAREAU, Panggih Kusuma NINGRUM
+  
+- [Criticalminds: Enhancing ml models for esg impact analysis categorisation using linguistic resources and aspect-based sentiment analysis](https://hal.science/hal-04746055/document) <br>
+  In: Joint Workshop of the 7th Financial Technology and Natural Language Processing and the 5th Knowledge Discovery from Unstructured Data in Financial Services, and the 4th Workshop on Economics and Natural Language Processing@ LREC-COLING-2024 (2024) <br>
+  Authors: Iana ATANASSOVA, Marine POTIER, Maya MATHIE, Marc BERTIN, Panggih Kusuma NINGRUM
+
 - [UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text](https://doi.org/10.48550/arXiv.2307.14236) <br>
-  In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, Santa Fe, New Mexico, USA, June 26 - 30, 2023. <br>
+  In: Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2023) and the 3rd AI + Informetrics (AII2023), part of the ACM/IEEE Joint Conference on Digital Libraries 2023, Santa Fe, New Mexico, USA, June 26 - 30, 2023 <br>
   Authors: Panggih Kusuma NINGRUM, Philipp MAYR, Iana ATANASSOVA
 
 - [Scientific Uncertainty: an Annotation Framework and Corpus Study in Different Disciplines](https://www.conftool.pro/issi2023/index.php/Ningrum-Scientific_Uncertainty-277.docx?page=downloadPaper&filename=Ningrum-Scientific_Uncertainty-277.docx&form_id=277&form_version=final) <br>
-  In: 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI 2023), Bloomington, Indiana, US. <br>
+  In: 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI 2023), Bloomington, Indiana, US <br>
   Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA
   
 - [Text classification beyond words: Harnessing Linguistic Features for Automatic Classification of Scientific Texts]() <br>
-  In: Science Week 2023 – Applied Informatics Conference, University of Dunaújvárosi, Hungary (2023). <br>
+  In: Science Week 2023 – Applied Informatics Conference, University of Dunaújvárosi, Hungary (2023) <br>
   Authors: Panggih Kusuma NINGRUM
 
 - [Text mining of online job advertisements to identify direct discrimination during job hunting process: A case study in Indonesia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233746) <br>
@@ -43,8 +67,20 @@ permalink: /publications/
   Institution: Information Society Research Institute of the National Public Service University, Hungary <br>
   Authors: Gábor MÉLYPTAKI, Zsófia RİCZU, Dávid MÁTÉ, Panggih Kusuma NİNGRUM 
  
+## Datasets:
+
+- [AURORA-MESS: Annotated Uncertainty and Reference in Open Research Articles for Multidisciplinary and Empirical Social Science](https://doi.org/10.5281/zenodo.15001249) <br>
+  Publication year: 2025 <br>
+  Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA
+  
+- [MUSIC-OpRA: Multidimensional Uncertainty in Scientific Interdisciplinary Corpora for Open Research Article](https://hal.science/hal-05028506/) <br>
+  Publication year: 2025 <br>
+  Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA, Nicolas GUTEHRLÉ
+  
+ 
  *The list will be updated soon :)*
  
+
 ***
 
 ## Projects
