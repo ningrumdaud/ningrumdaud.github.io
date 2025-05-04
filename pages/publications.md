@@ -27,7 +27,7 @@ permalink: /publications/
   Authors: Christophe MALATERRE, Iana ATANASSOVA, Francis LAREAU, Panggih Kusuma NINGRUM
   
 - [Criticalminds: Enhancing ml models for esg impact analysis categorisation using linguistic resources and aspect-based sentiment analysis](https://hal.science/hal-04746055/document) <br>
-  In: Joint Workshop of the 7th Financial Technology and Natural Language Processing and the 5th Knowledge Discovery from Unstructured Data in Financial Services, and the 4th Workshop on Economics and Natural Language Processing@ LREC-COLING-2024 (2024) <br>
+  In: Joint Workshop of the 7th Financial Technology and Natural Language Processing and the 5th Knowledge Discovery from Unstructured Data in Financial Services, and the 4th Workshop on Economics and Natural Language Processing@ LREC-COLING-2024, Turin, Italy (2024) <br>
   Authors: Iana ATANASSOVA, Marine POTIER, Maya MATHIE, Marc BERTIN, Panggih Kusuma NINGRUM
 
 - [UnScientify: Detecting Scientific Uncertainty in Scholarly Full Text](https://doi.org/10.48550/arXiv.2307.14236) <br>
