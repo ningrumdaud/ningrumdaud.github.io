@@ -53,14 +53,19 @@ permalink: /publications/
 
 ## Publications: AI and Others
 
-- [The Role of the Artificial Intelligence in the Labour Law Relations in European and Asian Aspect](https://dergipark.org.tr/en/pub/insanveinsan/issue/65253/976915) <br>
-  Published in İnsan ve İnsan (2021) <br>
-  Authors: Gábor MÉLYPTAKI, Zsófia RİCZU, Dávid MÁTÉ, Panggih Kusuma NİNGRUM
+- [Indonesia’s Digital Sovereignty in the Age of Cloud Computing: Legal and AI Perspectives on Chinese Data Providers](https://www.researchgate.net/publication/390208823_DIGITALISATION_AND_SOCIETY_-Interdisciplinary_conference_and_discussion_on_the_challenges_of_the_digital_society) <br>
+  In: Interdisciplinary conference and discussion on the challenges of the digital society (2025) <br>
+  Institution: University of Miscolc, Hungary <br>
+  Authors: Andi Tri HARYONO, Panggih Kusuma NINGRUM
 
 - [Employer or Owner? The Character of Platform Work](https://link.springer.com/chapter/10.1007/978-981-16-8406-7_16) <br>
   Book chapter in [Sustainability in the Gig Economy, Perspectives, Challenges and Opportunities in Industry 4.0](https://link.springer.com/book/10.1007/978-981-16-8406-7) <br>
   Published in Springer Nature (2022) <br>
   Authors: Gábor MÉLYPTAKI, Dávid MÁTÉ, Panggih Kusuma NİNGRUM, Zsófia RİCZU
+  
+- [The Role of the Artificial Intelligence in the Labour Law Relations in European and Asian Aspect](https://dergipark.org.tr/en/pub/insanveinsan/issue/65253/976915) <br>
+  Published in İnsan ve İnsan (2021) <br>
+  Authors: Gábor MÉLYPTAKI, Zsófia RİCZU, Dávid MÁTÉ, Panggih Kusuma NİNGRUM
 
 - [A platform munkavégzés jellemzői – munkáltató, vagy tulajdonos?](https://itki.uni-nke.hu/hirek/2021/05/12/az-internetes-platformok-kora-tarsadalmi-hatasok-es-szabalyozasi-kihivasok-cimu-konferencia-programja) <br>
   Presented at Internetes platformok kora – társadalmi hatások és szabályozási kihívások conference (2021) <br>
