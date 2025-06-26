@@ -21,6 +21,10 @@ permalink: /publications/
 - [Annotation of scientific uncertainty using linguistic patterns](https://doi.org/10.1007/s11192-024-05009-z) <br>
   Published in Scientometrics (2024) <br>
   Authors: Panggih Kusuma NINGRUM, Iana ATANASSOVA
+
+- [Exploring Research Valorization through Media and Policy Engagement: A Case Study of Indonesian Research in PLoS One]() <br>
+  In: Journée des Doctorants Indonésiens, Paris (2024) <br>
+  Author: Panggih Kusuma Ningrum
   
 - [Navigating the Unknown: A Textual Analysis of Uncertainty in Astrobiology Research](https://hal.science/hal-04780332/) <br>
   In: Congress of the Canadian Society for the History and Philosophy of Science (CSHPS), Canada (2024) <br>
