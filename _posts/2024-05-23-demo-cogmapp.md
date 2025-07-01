@@ -9,7 +9,7 @@ image: assets/images/cogmapp_small.png
 <video width="1000" height="350" controls>
   <source src="../assets/images/CogMApp-Demo.mp4" type="video/mp4">
 </video>
-CogMApp Demo on Hugging Face (Click Play button to watch)
+CogMApp Demo on Hugging Face
 
 ## Introduction
 In this blog post, we will walk through a sample code that demonstrates how to create CogMApp, a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. This tool utilizes natural language processing (NLP) techniques to extract and visualize these relationships. We will break down the algorithm and pipeline used, and discuss areas for potential improvement.
