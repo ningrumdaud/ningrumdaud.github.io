@@ -3,7 +3,7 @@ layout: post
 title:  "AI.LoveMySkin: Your Smart Shield Against Skincare Mishaps"
 author: Ningrum
 categories: [ portfolio ]
-image: assets/images/cogmapp_small.png
+image: assets/images/AILoveMySkin.png
 ---
 
 <video width="1000" height="350" controls>
@@ -18,11 +18,14 @@ Moving to another country or running out of your go-to product can be stressful.
 ## How Does It Work? The Tech Behind the Magic
 
 Step 1: Ingredients Knowledge Base Construction
-Integrates Domain Expertise and Scientific articles.
-Domain Expertise: Dermatologist-curated rules (e.g., incompatible pairs).
-Scientific Articles: Peer-reviewed research on ingredient interactions
+
+The first step integrates Domain Expertise and Scientific articles.
+
+- Domain Expertise: Dermatologist-curated rules (e.g., incompatible pairs).
+- Scientific Articles: Peer-reviewed research on ingredient interactions
 
 Step 2: Ingredient Extraction
+
 Whether you type the ingredients or upload a photo of the label, the app needs to extract ingredient names.
 
 For text inputs, we clean and preprocess the text (removing percentages, special characters) and then use spaCy’s PhraseMatcher to detect ingredient mentions:
