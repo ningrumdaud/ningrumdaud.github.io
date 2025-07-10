@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "UnScientify Demo"
+title:  "UnScientify Demo: Scientific Uncertainty Detection"
 author: Ningrum
 categories: [ portfolio ]
 image: assets/images/unscientify.png
