@@ -5,15 +5,17 @@ permalink: /portfolio/
 ---
 
 ***
-Kindly check some of my works here:
+Due to confidentiality agreements and the policies of some institutions I’ve collaborated with, a portion of my work is kept in private repositories. However, I’m excited to share several publicly accessible projects, including language models I’ve created or fine-tuned, which are available on my HuggingFace repository: [Here](https://huggingface.co/ningrumdaud)
 
-_P.S. I will update this page asap :)_
+Below, you’ll find a selection of my public projects that showcase my skills and passions.
+
+Thank you for stopping by — this page will be updated regularly with new work and insights. Stay tuned! :)
 
 ***
 
 
 <div style="text-align: center; margin: 50px;">
-    <a href="https://bit.ly/unscientify-demo" title="Click to view UnScientify demo">
+    <a href="https://ningrumdaud.github.io/demo-UnScientify/" title="Click to view UnScientify demo">
         <img src="../assets/images/unscientify.png" alt="UnScientify" style="width: 10; height: 10;">
     </a>
     <p>With just one click, UnScientify can help you detect uncertainties in scientific texts and their authorial references, revealing the true source behind each statement. <em>(Click the image to view UnScientify demo)</em></p>
