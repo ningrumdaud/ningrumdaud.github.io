@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CogMApp Demo"
+title:  "CogMApp Demo: Extract and Visualize Conceptual Relationships from Textual Data"
 author: Ningrum
 categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
