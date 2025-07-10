@@ -17,6 +17,8 @@ Moving to another country or running out of your go-to product can be stressful.
 
 ## How Does It Work? The Tech Behind the Magic
 
+![AI.LoveMySkin Pipeline](../assets/images/AILoveMySkin-pipeline.png "AI.LoveMySkin Pipeline")
+
 Step 1: Ingredients Knowledge Base Construction
 
 The first step integrates Domain Expertise and Scientific articles.
