@@ -30,7 +30,7 @@ Access the demo application here: [UnScientify Demo](https://bit.ly/unscientify-
 
 ## Background and Research
 
-UnScientify builds on a foundation of extensive research and development in scientific uncertainty detection. Key publications detailing the methodology and system design and its diverse implementations include:
+UnScientify builds on a foundation of extensive research and development in scientific uncertainty detection. Key publications detailing the methodology, the system design and its diverse implementations include:
 
 - Panggih Kusuma Ningrum, Phillip Mayr, Nina Smirnova, Iana Atanassova (2025). [Annotating Scientific Uncertainty: A comprehensive model using linguistic patterns and comparison with existing approaches](https://www.sciencedirect.com/science/article/pii/S1751157725000252). In : Journal of Informetrics (2025).
 
