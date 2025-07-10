@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI.LoveMySkin: AI That Prevents Skincare Disasters Before They Happen"
+title:  "AI.LoveMySkin: Your Smart Shield Against Skincare Mishaps"
 author: Ningrum
 categories: [ portfolio ]
 image: assets/images/cogmapp_small.png
