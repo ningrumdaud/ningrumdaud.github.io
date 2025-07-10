@@ -26,9 +26,9 @@ The first step integrates Domain Expertise and Scientific articles.
 
 Step 2: Ingredient Extraction
 
-Whether you type the ingredients or upload a photo of the label, the app needs to extract ingredient names.
+Whether you type the ingredients or upload a photo of the label, the app will extract ingredient names.
 
-For text inputs, we clean and preprocess the text (removing percentages, special characters) and then use spaCy’s PhraseMatcher to detect ingredient mentions:
+The text input is further cleaned and preprocessed by removing percentages and special characters, and then spaCy's PhraseMatcher is employed to detect ingredient mentions.
 
 ``` python
 def preprocess_text(text: str) -> str:
@@ -50,7 +50,7 @@ def extract_ingredients_from_text(text: str) -> List[str]:
     return sorted(found_ingredients)
 ```
 
-For images, we leverage OCR with EasyOCR to read the label text and then reuse the same text extraction pipeline:
+For images, OCR is leveraged with EasyOCR to read the label text and then reuse the same text extraction pipeline:
 
 ``` python
 def extract_ingredients_from_image(image) -> List[str]:
@@ -63,7 +63,8 @@ def extract_ingredients_from_image(image) -> List[str]:
 ```
 
 Step 3: Analysis - Compatibility Checking
-Once ingredients are identified from both products, we check for known incompatibilities from our curated knowledge base (KB). The KB contains ingredient groups, aliases, and documented incompatibilities with severity, reasons, and recommendations:
+
+Once ingredients are identified from both products, the app checks for known incompatibilities from the curated knowledge base (KB). The KB contains ingredient groups, aliases, and documented incompatibilities with severity, reasons, and recommendations:
 
 ``` python
 def check_compatibility(ingredients1: List[str], ingredients2: List[str]) -> Dict:
@@ -91,7 +92,8 @@ def check_compatibility(ingredients1: List[str], ingredients2: List[str]) -> Dic
 ```
 
 Step 4: Visualizing Relationships
-To make the analysis intuitive, we generate a relational graph using NetworkX and Matplotlib. Nodes represent ingredients, edges highlight incompatible pairs, colored by severity.
+
+To make the analysis intuitive, a relational graph using NetworkX and Matplotlib is generated. Nodes represent ingredients, edges highlight incompatible pairs, colored by severity.
 
 ``` python
 def visualize_detected_ingredients_graph(ingredients1: List[str], ingredients2: List[str], conflicts: List[Dict]) -> str:
@@ -110,20 +112,23 @@ This visual aid helps users grasp complex interactions at a glance.
 
 ## What’s Next? Future Enhancements
 
-This project is still in its early stages and evolving. Here’s where we want to take it:
+This project is still in its early stages and evolving. This is where the demo will be improved:
 
 1. Knowledge Graph Integration
-Rather than a static knowledge base, we plan to construct a dynamic knowledge graph that represents ingredients, their chemical properties, skin effects, and interactions. This will enable richer, multi-hop reasoning about ingredient compatibility beyond direct pairs.
+
+Rather than a static knowledge base, next plan will be to construct a dynamic knowledge graph that represents ingredients, their chemical properties, skin effects, and interactions. This will enable richer, multi-hop reasoning about ingredient compatibility beyond direct pairs.
 
 2. Language Model and Retrieval-Augmented Generation (RAG)
+
 Integrating semantic searching with RAG techniques can allow:
 
 - Generating personalized skincare advice based on routine and skin type and scientific articles
 - Expanding the ingredient database by scraping and synthesizing scientific literature on demand
 
 3. Context-Aware Recommendations
+   
 By combining user skin data (e.g., sensitivities, existing conditions) with the knowledge graph and LLM insights, we can provide highly tailored skincare compatibility assessments and suggestions.
 
 ## Final Thoughts
-AI.LoveMySkin is a friendly introduction to using NLP, OCR, and graph analysis to solve everyday skincare dilemmas. While simple now, it’s a foundation for a sophisticated, AI-powered skincare assistant. Stay tuned as we build smarter, more interactive tools that make skincare safer and science more accessible!
+AI.LoveMySkin is a friendly introduction to using NLP, OCR, and graph analysis to solve everyday skincare dilemmas. While simple now, it’s a foundation for a sophisticated, AI-powered skincare assistant. Stay tuned as I build smarter, more interactive tools that make skincare safer and science more accessible!
 
