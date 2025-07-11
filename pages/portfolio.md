@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 ***
-Due to confidentiality agreements and the policies of some institutions I’ve collaborated with, a portion of my work is kept in private repositories. However, I’m excited to share several publicly accessible projects, including language models I’ve created or fine-tuned, which are available on my HuggingFace repository: [Here](https://huggingface.co/ningrumdaud)
+Due to confidentiality agreements and the policies of some institutions I’ve collaborated with, a portion of my work is kept in private repositories. However, I’m excited to share several publicly accessible projects, including language models I’ve created or fine-tuned, which are available on my HuggingFace repository: [here](https://huggingface.co/ningrumdaud)
 
 Below, you’ll find a selection of my public projects that showcase my skills and passions.
 
