@@ -33,7 +33,7 @@ For job seekers, it acts as a personalized coach, offering insights into how wel
 To truly grasp how ResumAIScan works, let me walk you through the end-to-end pipeline—not just what happens, but also why I chose each method and how the system is designed to be adaptive, efficient, and privacy-aware.
 
 The following chart illustrates a high-level flow diagram that reflects the step-by-step processing logic embedded in the system.
-![ResumAIScan Pipeline](../assets/images/ResumAIScan-pipeline.png "ResumAIScan Pipeline")
+![ResumAIScan Pipeline](../assets/images/ResumAIScan-pipelin.png "ResumAIScan Pipeline")
 
 ### 1️⃣ File Input & Parsing
 Users upload two files: a resume and a job ad, in either .pdf or .txt format. PDF parsing is handled using PyMuPDF, which is reliable and fast. But some PDFs, especially scanned resumes, are not machine-readable—so I use EasyOCR as a fallback.
