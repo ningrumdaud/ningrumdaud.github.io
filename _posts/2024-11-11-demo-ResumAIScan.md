@@ -137,8 +137,13 @@ __⚡ Speed & Latency__
 - The analysis could be optimized with async processing, GPU acceleration for embedding/LLMs, and lazy evaluation.
 - Using quantized or distilled LLMs (e.g. TinyLlama, Phi-2) can cut inference time without sacrificing quality.
 
-__📈 Embedding Tuning__
-Currently, I use all-MiniLM-L6-v2 from SentenceTransformers, Fine-tuning on resume/job datasets could boost semantic matching significantly.
+__📈 Fine-Tuning Embeddings & Match Scoring Models__
+
+Currently, the system uses all-MiniLM-L6-v2 for embeddings and a Hugging Face fine-tuned classifier for match scoring. While effective, these models aren't optimized for the nuances of resume–job matching.
+
+Fine-tuning both models on localized, domain-specific data will greatly enhance semantic accuracy, improve relevance detection, and better handle diverse resume formats and job ad styles.
+
+Crucially, local fine-tuning also enables on-premise deployment—ensuring data privacy and safe handling of sensitive personal information.
 
 __🧾 Bulk Resume Analysis__
 - Enable drag-and-drop support for multiple resumes + 1 job ad. 
