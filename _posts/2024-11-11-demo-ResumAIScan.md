@@ -72,7 +72,7 @@ Why SentenceTransformer with MiniLM? It’s a compact, high-performance model th
 These embeddings are stored in ChromaDB, a fast, persistent vector database that allows efficient RAG-style querying.
 
 ### 4️⃣ Smart Question Generation with LLM
-Now here’s where it gets fun. Instead of directly comparing job and resume texts, I make the LLM act like a recruiter: it reads the job ad and generates five smart screening questions.
+Now here’s where it gets fun. Instead of directly comparing job and resume texts, I make the LLM act like a recruiter: it reads the job ad and generates screening questions based on the job requirements in the job ad.
 
 ``` python
 question_chain = LLMChain(llm=llm, prompt=question_prompt)
@@ -82,7 +82,7 @@ questions = question_chain.run({"text": job_ad})
 This makes the match process dynamic and adaptive. Rather than predefined templates, the system tailors its evaluation based on what this specific job ad emphasizes.
 
 ### 5️⃣ RAG Retrieval from Resume
-Using the questions, I perform a semantic search over the resume chunks in ChromaDB. Each question pulls the top-k matching segments from the resume.
+Using the screening questions generated in the previous step, I perform a semantic search over the resume chunks in ChromaDB. Each question pulls the top-k matching segments from the resume.
 
 ```python
 res = collection.query(query_embeddings=embed([q]).tolist(), n_results=3)
