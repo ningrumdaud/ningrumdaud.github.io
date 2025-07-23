@@ -30,6 +30,15 @@ Thank you for stopping by — this page will be updated regularly with new work 
     <p>CogMApp - a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. CogMApp utilizes Natural Language Processing (NLP) techniques to extract and visualize these relationships. <em>(Click the image to view CogMApp demo)</em></p>
 </div>
 
+***
+
+<div style="text-align: center; margin: 50px;">
+    <a href="https://ningrumdaud.github.io/demo-ResumAIScan/" title="Visit the ResumAIScan demo site">
+        <img src="../assets/images/ResumAIScan.png" alt="ResumAIScan" style="width: 10; height: 100;">
+    </a>
+    <p>ResumAIScan leverages cutting-edge Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) to intelligently scan resumes, extract key information, generate targeted screening questions, and provide a comprehensive match analysis against job requirements. <em>(Click the image to view ResumAIScan demo)</em></p>
+</div>
+
 
 ***
 
