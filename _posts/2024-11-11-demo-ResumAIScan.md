@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ResumAIScan: A Smarter Way to Match Resumes to Job Ads"
+title:  "ResumAIScan: AI-powered resume analysis for clarity"
 author: Ningrum
 categories: [ portfolio ]
 image: assets/images/ResumAIScan.png
