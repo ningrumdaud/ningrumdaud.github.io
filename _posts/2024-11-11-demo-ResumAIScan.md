@@ -133,18 +133,19 @@ This isn't just a bunch of AI models stitched together. It's a thoughtfully desi
 ## 🚀 Future Improvements
 This is just the prototype—and I see lots of room to grow:
 
-⚡ Speed & Latency
+__⚡ Speed & Latency__
 - The analysis could be optimized with async processing, GPU acceleration for embedding/LLMs, and lazy evaluation.
 - Using quantized or distilled LLMs (e.g. TinyLlama, Phi-2) can cut inference time without sacrificing quality.
 
-📈 Embedding Tuning
+__📈 Embedding Tuning__
 Currently, I use all-MiniLM-L6-v2 from SentenceTransformers, Fine-tuning on resume/job datasets could boost semantic matching significantly.
 
-🧾 Bulk Resume Analysis
+__🧾 Bulk Resume Analysis__
 - Enable drag-and-drop support for multiple resumes + 1 job ad. 
 - Process in batch with multiprocessing, and return ranked lists.
 
-☁️ Scalable Architecture
+__☁️ Scalable Architecture__
+
 Although this demo runs smoothly on a personal machine, it’s built with scalability in mind to handle more resumes, faster processing, and multiple users simultaneously. Packaging the app with Docker ensures it can run reliably and consistently whether on your local machine or a cloud environment. For larger-scale deployments, platforms like AWS, Azure, or Google Cloud provide the infrastructure to host the app and support background task management with tools like Celery and Redis, which help queue and process resume analyses efficiently.
 
 For managing large volumes of resume data, the vector database plays a critical role. While this demo uses ChromaDB, other popular vector databases such as Pinecone or Weaviate offer scalable, cloud-native options optimized for high-speed similarity search and retrieval. These services simplify handling thousands or even millions of document embeddings with minimal latency.
