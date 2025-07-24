@@ -10,7 +10,8 @@ image: assets/images/ResumAIScan.png
   <source src="../assets/images/ResumAIScan.mp4" type="video/mp4">
 </video>
 
-In today's world of hiring—where every job description feels like a snowflake and resumes come in all shapes and forms—one-size-fits-all solutions just don’t cut it. So I decided to build something different. Something smarter. Something adaptive.
+In today's world of hiring—where every job description feels like a snowflake and resumes come in all shapes and forms—one-size-fits-all solutions just don’t cut it. So I decided to build something different. Something adaptive.
+
 Let me introduce ResumAIScan, a prototype I crafted to tackle a challenge I’ve seen countless times: _"How can we effectively and fairly match a candidate’s resume to a job advertisement—when both documents are so inherently inconsistent, unstructured, and nuanced?"_
 This post is a behind-the-scenes look at how I built it, why I made certain technical decisions, and how this tool can help both HR professionals and job seekers navigate the complexities of resume matching.
 
@@ -21,7 +22,7 @@ Resumes are even worse. There is no global standard. People write them as prose,
 So I asked myself:
 _"Can we build a system that adapts to the content itself—no matter how it’s written?"_
 
-That’s when I leaned into a Retrieval-Augmented Generation (RAG) architecture, backed by local LLMs.
+That’s when I leaned into a Retrieval-Augmented Generation (RAG) architecture, backed by LLMs.
 
 ## 🙋‍♂️🙋🏻‍♀️ Who Is This App For?
 This app is a powerful ally for HR professionals and recruiters who face the daunting task of sifting through countless resumes to find the right candidate. It streamlines the screening process by providing a nuanced, AI-driven match score along with detailed analysis, helping them focus on quality over quantity.
@@ -29,7 +30,7 @@ This app is a powerful ally for HR professionals and recruiters who face the dau
 For job seekers, it acts as a personalized coach, offering insights into how well their resume aligns with a specific job posting. By highlighting strengths and pinpointing gaps, it empowers candidates to tailor their applications thoughtfully and increase their chances of landing interviews. Whether you’re hiring or applying, this system adapts to your unique context, making the often complex and opaque hiring process more transparent and effective.
 
 
-## ⚙️ How Does It Work? The Tech Behind the 'Magic'
+## ⚙️ How the System Works (Tech Breakdown)
 To truly grasp how ResumAIScan works, let me walk you through the end-to-end pipeline—not just what happens, but also why I chose each method and how the system is designed to be adaptive, efficient, and privacy-aware.
 
 The following chart illustrates a high-level flow diagram that reflects the step-by-step processing logic embedded in the system.
