@@ -17,32 +17,32 @@ Thank you for stopping by — this page will be updated regularly with new work 
 <div style="text-align: center;">
   
   <!-- Wrapper -->
-  <div style="display: inline-block; width: 30%; margin: 1%; vertical-align: top;">
+  <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
     <a href="https://ningrumdaud.github.io/demo-UnScientify/">
       <img src="../assets/images/unscientify.png" alt="UnScientify" style="width:100%; max-width:250px;">
     </a>
-    <p>UnScientify helps detect uncertainties in scientific texts... <em>(Click the image to view demo)</em></p>
+    <p>With just one click, UnScientify can help you detect uncertainties in scientific texts and their authorial references, revealing the true source behind each statement.</p>
   </div>
 
-  <div style="display: inline-block; width: 30%; margin: 1%; vertical-align: top;">
+  <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
     <a href="https://ningrumdaud.github.io/demo-cogmapp/">
       <img src="../assets/images/cogmapp_small.png" alt="CogMApp" style="width:100%; max-width:250px;">
     </a>
-    <p>CogMApp - a cognitive map analysis tool from text... <em>(Click the image to view demo)</em></p>
+    <p>CogMApp - a cognitive map analysis tool from text. Cognitive maps are a great way to visualize and understand the relationships between different concepts. CogMApp utilizes Natural Language Processing (NLP) techniques to extract and visualize these relationships.</p>
   </div>
 
-  <div style="display: inline-block; width: 30%; margin: 1%; vertical-align: top;">
+  <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
     <a href="https://ningrumdaud.github.io/demo-ResumAIScan/">
       <img src="../assets/images/ResumAIScan.png" alt="ResumAIScan" style="width:100%; max-width:250px;">
     </a>
-    <p>ResumAIScan intelligently scans resumes and provides job match analysis... <em>(Click the image to view demo)</em></p>
+    <p>ResumAIScan leverages cutting-edge Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) to intelligently scan resumes, extract key information, generate targeted screening questions, and provide a comprehensive match analysis against job requirements.</p>
   </div>
 
-  <div style="display: inline-block; width: 30%; margin: 1%; vertical-align: top;">
+  <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
     <a href="https://ningrumdaud.github.io/demo-AILoveMySkin/">
       <img src="../assets/images/AILoveMySkin.png" alt="AI.LoveMySkin" style="width:100%; max-width:250px;">
     </a>
-    <p>AI.LoveMySkin checks skincare ingredient compatibility... <em>(Click the image to view demo)</em></p>
+    <p>AI.LoveMySkin is a Skincare Ingredient Compatibility Checker. It is simple yet powerful demo app designed to demystify ingredient interactions and help you avoid adverse reactions</p>
   </div>
 
 </div>
