@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 ***
-<div style="font-size: 14px; line-height: 1.5;">
+<div style="font-size: 16px; line-height: 1.5;">
   
 Due to confidentiality agreements and the policies of some institutions I’ve collaborated with, a portion of my work is kept in private repositories. However, I’m excited to share several publicly accessible projects, including language models I’ve created or fine-tuned, which are available on my HuggingFace repository: [here](https://huggingface.co/ningrumdaud)
 
@@ -13,10 +13,11 @@ Below, you’ll find a selection of my public projects that showcase my skills a
 
 Thank you for stopping by — this page will be updated regularly with new work and insights. Stay tuned! :)
 
+</div>
 ***
 
 
-<div style="text-align: center;">
+<div style="font-size: 16px; text-align: center;">
   
   <!-- Wrapper -->
   <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
@@ -47,7 +48,6 @@ Thank you for stopping by — this page will be updated regularly with new work 
     <p>AI.LoveMySkin is a Skincare Ingredient Compatibility Checker. It is simple yet powerful demo app designed to demystify ingredient interactions and help you avoid adverse reactions</p>
   </div>
 
-</div>
 </div>
 
 
