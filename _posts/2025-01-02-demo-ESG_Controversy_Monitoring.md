@@ -3,7 +3,7 @@ layout: post
 title:  "Using NLP to Track ESG Controversies"
 author: Ningrum
 categories: [ portfolio ]
-image: assets/images/AILoveMySkin.png
+image: assets/images/esg-contro.png
 ---
 
 
@@ -26,6 +26,8 @@ ESG is more than a buzzword. Companies facing environmental disasters, labor str
 ## A Peek Under the Hood: The Science Behind the Sentinel
 
 This project was designed for accuracy, transparency, and robustness. Every step is backed by proven scientific rationale.
+
+![AI.LoveMySkin Pipeline](../assets/images/ESG-contro-pipeline.png "Pipeline")
 
 ### 1. Building a High-Quality Labeled Dataset
 
