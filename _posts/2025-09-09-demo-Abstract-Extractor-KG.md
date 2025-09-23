@@ -83,7 +83,7 @@ While the demo works well in its current form, I envision several exciting enhan
 
 If you want to explore the demo yourself, follow the instructions in the repository:
 
-1. Clone the repository from GitHub: [Link](https://github.com/yourusername/research-abstract-extractor)
+1. Clone the repository from GitHub: [Link](https://github.com/ningrumdaud/Abstract-Metadata-Extractor-KG)
 2. Follow the setup and usage instructions in the README there, including configuring your **Neo4j AuraDB credentials** in a `.env` file.
 3. Launch the Gradio app and submit an abstract to see the extracted metadata and interactive knowledge graph.
 
