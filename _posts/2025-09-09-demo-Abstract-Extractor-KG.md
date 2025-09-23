@@ -3,7 +3,7 @@ layout: post
 title:  "Building an Interactive Research Abstract Metadata Extractor with Knowledge Graphs"
 author: Ningrum
 categories: [ portfolio ]
-image: assets/images/unscientify.png
+image: assets/images/abstract-extractor-kg.png
 ---
 
 <iframe width="1000" height="350" 
