@@ -6,14 +6,9 @@ categories: [ portfolio ]
 image: assets/images/abstract-extractor-kg.png
 ---
 
-<iframe width="1000" height="350" 
-        src="https://www.youtube.com/watch?v=BJTpdA6urRQ" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-</iframe>
-
+<video width="1000" height="350" controls>
+  <source src="../assets/images/AbstractKGExs-Demo.mp4" type="video/mp4">
+</video>
 
 As someone passionate about **Natural Language Processing (NLP)**, **knowledge graphs**, and making research more accessible, I wanted to explore a project that combines these technologies in a practical way. The result is my **Research Abstract Metadata Extractor**, an interactive demo that extracts structured information from research abstracts and visualizes it in a knowledge graph.
 
