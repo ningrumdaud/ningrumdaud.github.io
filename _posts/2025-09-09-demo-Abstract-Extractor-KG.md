@@ -35,22 +35,7 @@ By focusing on the abstract, I can extract essential metadata **without needing 
 
 ## How the Demo Works
 
-```mermaid
-graph TD
-    A[User Input<br/>Abstract: PDF/DOCX/TXT/Manual] --> B[Text Extraction + Cleaning]
-    B --> C[LLM Processing<br/>Ollama + LangChain]
-    C --> D{JSON Metadata Extraction}
-    D --> E[Neo4j<br/>Knowledge Graph Nodes & Relationships]
-    E --> F[Gradio UI Visualization<br/>JSON + Knowledge Graph]
-
-    style A fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
-    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000
-    style C fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
-    style D fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
-    style E fill:#ffebee,stroke:#b71c1c,stroke-width:2px,color:#000000
-    style F fill:#e8eaf6,stroke:#1a237e,stroke-width:2px,color:#000000
-
-```
+![Pipeline](../assets/images/AbstractKBEx-pipeline.png "Abstract Extractor & Visualization Pipeline")
 
 The demo combines several technologies into a smooth, end-to-end workflow:
 
