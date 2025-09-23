@@ -28,6 +28,13 @@ permalink: /portfolio/
   </div>
 
   <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
+    <a href="https://ningrumdaud.github.io/demo-Abstract-Extractor-KG/">
+      <img src="../assets/images/abstract-extractor-kg.png" alt="Abstract Metadata Extraction with KG" style="width:100%; max-width:300px;">
+    </a>
+    <p>Research Abstract Metadata Extractor, an interactive demo that extracts structured information from research abstracts and visualizes it in a knowledge graph.</p>
+  </div>
+
+  <div style="display: inline-block; width: 45%; margin: 2%; vertical-align: top;">
     <a href="https://ningrumdaud.github.io/demo-cogmapp/">
       <img src="../assets/images/cogmapp_small.png" alt="CogMApp" style="width:100%; max-width:300px;">
     </a>
