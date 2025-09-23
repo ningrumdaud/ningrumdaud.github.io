@@ -7,7 +7,7 @@ image: assets/images/abstract-extractor-kg.png
 ---
 
 <iframe width="1000" height="350" 
-        src="https://youtu.be/BJTpdA6urRQ" 
+        src="https://www.youtube.com/watch?v=BJTpdA6urRQ" 
         title="YouTube video player" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
